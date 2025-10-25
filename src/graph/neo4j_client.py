@@ -88,6 +88,7 @@ class Neo4jClient:
             "   n.name AS source_name, "
             "   type(r) AS relationship, "
             "   m.name AS target_name, "
+            "   m.type AS target_type, "
             "   m.description AS target_description "
             "LIMIT $limit"
         )
@@ -100,8 +101,8 @@ class Neo4jClient:
                 records.append({
                     "source": record.get("source_name", "Unknown"),
                     "rel": record.get("relationship", "RELATES_TO"),
-                    "target": record.get("target_name", "Unknown"),
-                    "target_type": record.get("target_type", "Unknown"),
+                    "target_name": record.get("target_name", "Unknown"),
+                    "target_type": record.get("target_type", "Place"),
                     "description": record.get("target_description", "")
                 })
             
