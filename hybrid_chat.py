@@ -6,6 +6,7 @@ from pinecone import Pinecone, ServerlessSpec
 from neo4j import GraphDatabase
 from src import config
 
+
 # -----------------------------
 # Config
 # -----------------------------

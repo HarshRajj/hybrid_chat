@@ -6,3 +6,5 @@ networkx
 tqdm
 python-dotenv
 tenacity
+aiohttp
+asyncio
