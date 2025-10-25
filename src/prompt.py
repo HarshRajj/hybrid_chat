@@ -68,7 +68,9 @@ def build_prompt(user_query: str, matches: List[Dict], graph_facts: List[Dict],
         "search results and connections provided. Cite place names when helpful.\n\n"
         "Important: I cannot make bookings, reservations, or access real-time pricing/availability. "
         "If asked to book or reserve, politely decline but still provide helpful recommendations "
-        "and information about the places they might want to visit."
+        "and information about the places they might want to visit.\n\n"
+        "Format: Use plain text only. Do NOT use markdown formatting (no **, __, ##, etc.). "
+        "Use simple punctuation and numbered lists (1. 2. 3.) if needed."
     )
     
     # Vector results
@@ -110,7 +112,9 @@ def build_direct_prompt(user_query: str, history: Optional[List[Dict]] = None) -
         "Vietnam travel, weather, culture, visas, etc. Be concise and practical.\n\n"
         "Important: I cannot make bookings, reservations, or access real-time pricing/availability. "
         "If asked to book or reserve, politely decline but still provide helpful information "
-        "and recommendations for planning their trip."
+        "and recommendations for planning their trip.\n\n"
+        "Format: Use plain text only. Do NOT use markdown formatting (no **, __, ##, etc.). "
+        "Use simple punctuation and numbered lists (1. 2. 3.) if needed."
     )
     
     messages = [{"role": "system", "content": system}]

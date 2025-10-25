@@ -3,6 +3,17 @@ from src import config
 import time
 import sys
 import asyncio
+import logging
+
+# Setup logging
+def setup_logging(verbose: bool = False):
+    """Configure logging based on verbosity."""
+    level = logging.DEBUG if verbose else logging.INFO
+    logging.basicConfig(
+        level=level,
+        format='%(message)s',  # Simple format, just the message
+        handlers=[logging.StreamHandler(sys.stdout)]
+    )
 
 async def interactive_chat(streaming: bool = False):
     """Interactive CLI for hybrid travel assistant with intelligent routing."""
@@ -98,10 +109,16 @@ async def interactive_chat(streaming: bool = False):
 if __name__ == "__main__":
     config.validate_config()
     
-    # Check for streaming flag
+    # Check for flags
     streaming = "--stream" in sys.argv or "-s" in sys.argv
+    verbose = "--verbose" in sys.argv or "-v" in sys.argv
+    
+    # Setup logging
+    setup_logging(verbose=verbose)
     
     if streaming:
         print("Starting in streaming mode...")
+    if verbose:
+        print("Verbose logging enabled...")
     
     asyncio.run(interactive_chat(streaming=streaming))
