@@ -1,4 +1,6 @@
 import time
+import hashlib
+import json
 from typing import List, Dict, Any, Optional, TypedDict
 from neo4j import GraphDatabase, Driver
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -15,12 +17,17 @@ class GraphFact(TypedDict):
 
 class Neo4jClient:
     """
-    Robust wrapper around Neo4j for graph operations, utilizing automatic retries
-    for transient network or database errors.
+    Robust wrapper around Neo4j for graph operations with caching and parallelism.
     """
     
-    def __init__(self):
+    def __init__(self, enable_cache: bool = True):
         """Initializes the connection and verifies connectivity."""
+        self.enable_cache = enable_cache
+        
+        # Query result cache (in-memory)
+        self.query_cache: Dict[str, List[GraphFact]] = {}
+        self.cache_stats = {"hits": 0, "misses": 0}
+        
         try:
             self.driver: Driver = GraphDatabase.driver(
                 config.NEO4J_URI,
@@ -63,6 +70,14 @@ class Neo4jClient:
         Searches the graph for facts related to a given topic (e.g., a place or itinerary name).
         This is the primary method used in a RAG system.
         """
+        # Check cache first
+        if self.enable_cache:
+            cache_key = self._get_cache_key(topic, limit)
+            if cache_key in self.query_cache:
+                self.cache_stats["hits"] += 1
+                return self.query_cache[cache_key]
+            self.cache_stats["misses"] += 1
+        
         # Use a case-insensitive search (toLower) on relevant node properties (like 'name').
         # This is more robust than requiring an exact ID match.
         query = (
@@ -89,6 +104,11 @@ class Neo4jClient:
                     "target_type": record.get("target_type", "Unknown"),
                     "description": record.get("target_description", "")
                 })
+            
+            # Cache the results
+            if self.enable_cache:
+                self.query_cache[cache_key] = records
+                
         except RetryError as e:
             # If all retries fail, log a warning and return an empty list.
             print(f"⚠️ Warning: Neo4j read query failed after multiple retries for topic '{topic}'. Skipping.")
@@ -96,13 +116,25 @@ class Neo4jClient:
             print(f"❌ Error executing search_by_topic for '{topic}': {e}")
             
         return records
+    
+    def _get_cache_key(self, topic: str, limit: int) -> str:
+        """Generate a cache key from query parameters."""
+        key_data = {"topic": topic.lower(), "limit": limit}
+        key_str = json.dumps(key_data, sort_keys=True)
+        return hashlib.sha256(key_str.encode()).hexdigest()[:16]
+    
+    def clear_cache(self):
+        """Clear the query cache."""
+        self.query_cache.clear()
+        self.cache_stats = {"hits": 0, "misses": 0}
+        print("✓ Neo4j query cache cleared")
 
     # --- Batch Fact Fetching (Parallelism) ---
 
     def search_by_topic_batch(self, topics: List[str], limit: int = 5, max_workers: int = 4) -> List[GraphFact]:
         """
         Fetches facts for multiple topics in parallel using a ThreadPoolExecutor.
-        Each individual search benefits from the internal retry logic.
+        Each individual search benefits from the internal retry logic and caching.
         """
         all_facts: List[GraphFact] = []
         
@@ -122,3 +154,21 @@ class Neo4jClient:
                     continue
                     
         return all_facts
+    
+    def get_cache_stats(self) -> Dict[str, Any]:
+        """Get cache statistics."""
+        total_queries = self.cache_stats["hits"] + self.cache_stats["misses"]
+        hit_rate = (self.cache_stats["hits"] / total_queries * 100) if total_queries > 0 else 0
+        
+        return {
+            "enabled": self.enable_cache,
+            "size": len(self.query_cache),
+            "hits": self.cache_stats["hits"],
+            "misses": self.cache_stats["misses"],
+            "hit_rate": f"{hit_rate:.1f}%"
+        }
+    
+    def clear_cache(self):
+        """Clear topic query cache."""
+        self.query_cache.clear()
+        self.cache_stats = {"hits": 0, "misses": 0}
