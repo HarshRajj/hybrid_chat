@@ -120,9 +120,16 @@ class HybridRunner:
         timings["vector_search"] = time.time() - vector_start
         
         # Graph search (dependent on vector results)
-        node_ids = [m["id"] for m in matches]
+        # Extract names from metadata instead of IDs (Neo4j searches by name)
+        topic_names = []
+        for m in matches:
+            metadata = m.get("metadata", {}) or {}
+            name = metadata.get("name", "")
+            if name:
+                topic_names.append(name)
+        
         graph_start = time.time()
-        graph_facts = await _run_sync_io(self.graph.search_by_topic_batch, node_ids, graph_neighbors, 4)
+        graph_facts = await _run_sync_io(self.graph.search_by_topic_batch, topic_names, graph_neighbors, 4)
         timings["graph_search"] = time.time() - graph_start
         
         if explain:
