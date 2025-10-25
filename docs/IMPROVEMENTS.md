@@ -1,43 +1,27 @@
-# Improvements Over hybrid_chat.py
+# Improvements Over Original `docs/hybrid_chat.py`
+
+This project is a major upgrade over the original monolithic `docs/hybrid_chat.py` Vietnam travel assistant. Key improvements:
 
 ## Architecture
-- **Modular Design**: Split into separate modules (agent, router, embeddings, vector, graph, prompts)
-- **Async/Await**: Converted to `AsyncOpenAI` with `asyncio` for parallel I/O operations
-- **Smart Routing**: Rule-based router that selects hybrid/graph/direct strategies automatically
-
-## Performance Optimizations
-- **Multi-Level Caching**: 
-  - Understanding cache (Phase 1 results)
-  - Response cache (LLM outputs)
-  - Embedding cache (vector computations)
-  - Vector DB cache (Pinecone queries)
-  - Graph DB cache (Neo4j queries)
-  
-- **Parallel Execution**: Vector and graph queries run concurrently using `asyncio`
-- **Streaming Output**: Real-time token-by-token responses
-- **Instant Greetings**: No database calls for simple greetings
+- **Async/Await**: Uses `AsyncOpenAI` and `asyncio` for true parallel I/O (vector + graph search run concurrently)
+- **Smart Routing**: Rule-based router selects hybrid, graph, or direct strategies automatically
+- **Unified Caching**: Multi-level cache for embeddings, vector, graph, LLM responses, and query understanding
+- **Streaming Output**: Real-time responses for better user experience
 
 ## Intelligence
-- **Two-Phase System**:
-  - Phase 1: Quick checks for greetings and out-of-scope queries
-  - Phase 2: Smart routing and parallel retrieval
-  
-- **Conversation History**: Maintains context across queries
+- **Two-Phase System**: Phase 1 (greeting/out-of-scope detection), Phase 2 (routing and retrieval)
+- **Conversation History**: Maintains context for follow-up questions
 - **Out-of-Scope Detection**: Politely handles non-Vietnam queries
 
-## Code Quality
-- **430 Lines** (vs 200+ in hybrid_chat.py) with full production features
-- **Unified Cache**: Single `_cache` dict instead of scattered state
-- **Helper Methods**: Eliminated duplication (`_generate_llm_response`, `_check_response_cache`)
-- **Clean Docstrings**: Concise and professional
+## Performance
+- **Parallel Execution**: Vector and graph queries run at the same time (40-60% faster)
+- **Instant Greetings**: No database calls for simple greetings
+- **Response Caching**: 95% faster for repeat queries
 
-## Monitoring
-- **Response Time Tracking**: Detailed timing breakdown for each query
-- **Cache Statistics**: Hit rates for all cache levels
-- **Performance Stats**: Comprehensive metrics via `stats` property
+## Code Quality
+- **Unified, Clean Code**: Single orchestrator with helper methods and clear docstrings
+- **Comprehensive Timing Stats**: Tracks and reports time for each phase
 
 ## Result
-- **95% faster** for repeat queries (caching)
-- **40-60% faster** for complex queries (async parallelism)
-- **Instant** responses for greetings
-- **Production-ready** code structure
+- **Much faster** and more robust than the original
+- **Production-ready** structure and features
