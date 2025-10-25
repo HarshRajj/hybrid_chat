@@ -1,15 +1,22 @@
 import time
+import hashlib
+import json
 from typing import List, Dict, Any, Optional
 from pinecone import Pinecone, ServerlessSpec
 from tenacity import retry, stop_after_attempt, wait_exponential
 from src import config
 
 class PineconeClient:
-    """Thin wrapper around Pinecone for vector operations with error handling."""
+    """Thin wrapper around Pinecone for vector operations with error handling and caching."""
     
-    def __init__(self, index_name: str = None, dimension: int = None):
+    def __init__(self, index_name: str = None, dimension: int = None, enable_cache: bool = True):
         self.index_name = index_name or config.PINECONE_INDEX_NAME
         self.dimension = dimension or config.PINECONE_VECTOR_DIM
+        self.enable_cache = enable_cache
+        
+        # Query result cache (in-memory)
+        self.query_cache: Dict[str, List[Dict]] = {}
+        self.cache_stats = {"hits": 0, "misses": 0}
         
         try:
             self.pc = Pinecone(api_key=config.PINECONE_API_KEY)
@@ -87,6 +94,14 @@ class PineconeClient:
                 f"Query vector has dimension {len(vector)}, expected {self.dimension}"
             )
         
+        # Generate cache key from vector + params
+        if self.enable_cache:
+            cache_key = self._get_cache_key(vector, top_k, filter)
+            if cache_key in self.query_cache:
+                self.cache_stats["hits"] += 1
+                return self.query_cache[cache_key]
+            self.cache_stats["misses"] += 1
+        
         try:
             query_params = {
                 "vector": vector,
@@ -106,20 +121,54 @@ class PineconeClient:
                 if "metadata" not in match:
                     match["metadata"] = {}
             
+            # Cache the results
+            if self.enable_cache:
+                self.query_cache[cache_key] = matches
+            
             return matches
             
         except Exception as e:
             raise RuntimeError(f"Failed to query index: {e}")
     
+    def _get_cache_key(self, vector: List[float], top_k: int, filter: Optional[Dict]) -> str:
+        """Generate a cache key from query parameters."""
+        # Round vector values to reduce cache misses from floating point precision
+        rounded_vector = [round(v, 6) for v in vector]
+        key_data = {
+            "vector": rounded_vector[:10],  # Use first 10 dims for key (representative)
+            "top_k": top_k,
+            "filter": filter
+        }
+        key_str = json.dumps(key_data, sort_keys=True)
+        return hashlib.sha256(key_str.encode()).hexdigest()[:16]
+    
+    def clear_cache(self):
+        """Clear the query cache."""
+        self.query_cache.clear()
+        self.cache_stats = {"hits": 0, "misses": 0}
+        print("✓ Pinecone query cache cleared")
+    
     def get_stats(self) -> Dict[str, Any]:
         
         try:
             stats = self.index.describe_index_stats()
+            
+            # Add cache stats
+            total_queries = self.cache_stats["hits"] + self.cache_stats["misses"]
+            cache_hit_rate = (self.cache_stats["hits"] / total_queries * 100) if total_queries > 0 else 0
+            
             return {
                 "total_vector_count": stats.get("total_vector_count", 0),
                 "dimension": stats.get("dimension", self.dimension),
                 "index_fullness": stats.get("index_fullness", 0.0),
-                "namespaces": stats.get("namespaces", {})
+                "namespaces": stats.get("namespaces", {}),
+                "cache": {
+                    "enabled": self.enable_cache,
+                    "size": len(self.query_cache),
+                    "hits": self.cache_stats["hits"],
+                    "misses": self.cache_stats["misses"],
+                    "hit_rate": f"{cache_hit_rate:.1f}%"
+                }
             }
         except Exception as e:
             print(f"⚠ Warning: Failed to get index stats: {e}")
