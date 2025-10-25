@@ -58,15 +58,44 @@ class HybridRouter:
         # Confidence threshold for semantic routing (before LLM fallback)
         self.SEMANTIC_CONFIDENCE_THRESHOLD = 0.75
     
-    def route(self, query: str) -> Dict:
+    def route(self, query: str, llm_intent: str = None) -> Dict:
         """
-        Route query through 4-tier cascade.
+        Route query through 4-tier cascade with optional LLM intent override.
+        Args:
+            query: User query string
+            llm_intent: Optional semantic intent from LLM understanding phase
         Returns: {strategy, method, filters, confidence, reasoning}
         """
         self.stats["total"] += 1
         query_lower = query.lower()
         
-        # --- TIER 0: Scope Validation (Detect out-of-scope queries) ---
+        # --- TIER 0: LLM Intent Override (Highest Priority) ---
+        # If we have semantic intent from understanding phase, use it to inform routing
+        if llm_intent:
+            intent_lower = llm_intent.lower()
+            
+            # Check for location/relationship queries
+            if any(kw in intent_lower for kw in ["nearby", "near", "close to", "around", "location-based", "find places", "relationships"]):
+                self.stats["rule"] += 1
+                return self._build_result(
+                    self.STRATEGY_GRAPH,
+                    f"LLM Intent: {llm_intent} → Graph strategy",
+                    method="llm_intent",
+                    confidence=0.95,
+                    filters=self._extract_filters(query)
+                )
+            
+            # Check for direct/conversational queries
+            if any(kw in intent_lower for kw in ["follow-up", "clarification", "direct answer", "general knowledge", "conversational"]):
+                self.stats["rule"] += 1
+                return self._build_result(
+                    self.STRATEGY_DIRECT,
+                    f"LLM Intent: {llm_intent} → Direct strategy",
+                    method="llm_intent",
+                    confidence=0.95
+                )
+        
+        # --- TIER 1: Scope Validation (Detect out-of-scope queries) ---
         if self._is_out_of_scope(query_lower):
             self.stats["rule"] += 1
             return self._build_result(
@@ -76,7 +105,7 @@ class HybridRouter:
                 confidence=0.95
             )
         
-        # --- TIER 1: Rule-Based Routing (High Priority, 0 tokens) ---
+        # --- TIER 2: Rule-Based Routing (High Priority, 0 tokens) ---
         
         # Check for graph keywords
         if any(kw in query_lower for kw in self.KEYWORDS[self.STRATEGY_GRAPH]):
@@ -99,7 +128,7 @@ class HybridRouter:
                 confidence=0.90
             )
         
-        # --- TIER 2: Semantic Routing (Optional, Low cost: embedding only) ---
+        # --- TIER 3: Semantic Routing (Optional, Low cost: embedding only) ---
         if self.enable_semantic:
             semantic_result = self._semantic_route(query)
             if semantic_result and semantic_result.get("confidence", 0) >= self.SEMANTIC_CONFIDENCE_THRESHOLD:
