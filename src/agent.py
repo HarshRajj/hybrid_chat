@@ -33,10 +33,22 @@ class HybridRunner:
         self.vector_store = PineconeClient()
         self.graph = Neo4jClient()
         self.router = HybridRouter()
-        self.llm_client = AsyncOpenAI(api_key=config.OPENAI_API_KEY)
+        
+        # Initialize LLM client based on config
+        if config.USE_CEREBRAS and config.CEREBRAS_API_KEY:
+            # Cerebras is OpenAI-compatible, just change base_url
+            self.llm_client = AsyncOpenAI(
+                api_key=config.CEREBRAS_API_KEY,
+                base_url="https://api.cerebras.ai/v1"
+            )
+            self.chat_model = config.CEREBRAS_MODEL
+            logger.info(f"🚀 Using Cerebras inference: {self.chat_model}")
+        else:
+            self.llm_client = AsyncOpenAI(api_key=config.OPENAI_API_KEY)
+            self.chat_model = config.CHAT_MODEL or "gpt-4o-mini"
+            logger.info(f"🤖 Using OpenAI: {self.chat_model}")
         
         self.top_k = top_k
-        self.chat_model = config.CHAT_MODEL or "gpt-4o-mini"
         self.enable_streaming = enable_streaming
         
         self.conversation_history: List[Dict] = []
@@ -57,31 +69,87 @@ class HybridRunner:
         phase1_start = time.time()
         query_lower = user_query.strip().lower()
         
-        # --- FIX 1: TIGHTEN GREETING LOGIC ---
-        is_pure_greeting = query_lower in self.GREETINGS or (len(query_lower) <= 3 and any(g.startswith(query_lower) for g in self.GREETINGS))
+        # --- ENHANCED GREETING DETECTION ---
+        # Detect greetings with introductions (e.g., "hi i'm harsh", "hello my name is john")
+        greeting_patterns = [
+            "hi", "hello", "hey", "good morning", "good afternoon", "good evening", "hola", "sup", "yo"
+        ]
+        intro_patterns = ["i'm ", "i m ", "i am ", "my name is ", "this is ", "call me "]
+        
+        # Check if it's a pure greeting (with or without introduction)
+        is_greeting = any(query_lower.startswith(g) for g in greeting_patterns)
+        has_intro = any(pattern in query_lower for pattern in intro_patterns)
+        
+        # Check if query contains travel-related keywords
+        travel_keywords = [
+            "hotel", "restaurant", "visit", "trip", "travel", "itinerary", "tour", 
+            "stay", "place", "destination", "plan", "book", "hanoi", "saigon", 
+            "ho chi minh", "hoi an", "sapa", "da nang", "vietnam", "where", "what to do"
+        ]
+        has_travel_intent = any(keyword in query_lower for keyword in travel_keywords)
+        
+        # It's a pure greeting if:
+        # 1. Starts with greeting word AND no travel keywords, OR
+        # 2. Contains introduction phrases AND no travel keywords
+        is_pure_greeting = (is_greeting or has_intro) and not has_travel_intent
         
         if is_pure_greeting:
-            response = "Hello! I'm your Vietnam Travel Assistant. How can I help you plan your trip today?"
+            # Extract name if provided
+            name = ""
+            for pattern in intro_patterns:
+                if pattern in query_lower:
+                    # Extract name after the pattern
+                    parts = query_lower.split(pattern, 1)
+                    if len(parts) > 1:
+                        name_part = parts[1].split()[0] if parts[1].split() else ""
+                        name = name_part.strip(",.'\"!?").title()
+                        break
+            
+            if name:
+                response = f"Hello {name}! Nice to meet you. I'm your Vietnam Travel Assistant. How can I help you plan your trip today?"
+            else:
+                response = "Hello! I'm your Vietnam Travel Assistant. How can I help you plan your trip today?"
+            
             self._finalize_query(response, timings, start_time, phase1_start, strategy="greeting")
             return response
         
-        # PHASE 2: LLM Understanding (Semantic Intent & Scope Check)
+        # PHASE 2: Parallel LLM Understanding + Routing (OPTIMIZATION: Run in parallel)
         understanding_start = time.time()
-        understanding = await self._understand_query(user_query, explain=explain)
+        
+        # Run understanding and routing in parallel
+        understanding_task = asyncio.create_task(self._understand_query(user_query, explain=explain))
+        routing_task = asyncio.create_task(asyncio.to_thread(self.router.route, user_query, None))
+        
+        understanding, initial_route = await asyncio.gather(understanding_task, routing_task)
+        
         timings["understanding"] = time.time() - understanding_start
         
         if understanding.get("is_out_of_scope", False) or understanding.get("needs_clarification", False):
-            response = self._handle_out_of_scope(user_query) if understanding["is_out_of_scope"] else understanding.get("clarification_message", "Could you please clarify your question?")
-            strategy = "out_of_scope" if understanding["is_out_of_scope"] else "clarification"
+            if understanding["is_out_of_scope"]:
+                response = self._handle_out_of_scope(user_query)
+                strategy = "out_of_scope"
+            else:
+                # It's a greeting/introduction - extract name if provided and respond warmly
+                clarification = understanding.get("clarification_message", "")
+                if clarification:
+                    response = clarification
+                else:
+                    # Default friendly greeting response
+                    response = "Hello! I'm your Vietnam Travel Assistant. How can I help you plan your trip to Vietnam today?"
+                strategy = "greeting"
+            
+            # Add assistant response to history (so it remembers the interaction)
+            self.conversation_history.append({"role": "assistant", "content": response})
+            
             self._finalize_query(response, timings, start_time, phase1_start, strategy=strategy)
             return response
         
-        # PHASE 3: Route and execute query
+        # PHASE 3: Re-route with LLM intent if needed (fast, no API call)
         timings["phase1"] = time.time() - phase1_start
         routing_start = time.time()
         
         llm_intent = understanding.get("intent", "")
-        route = self.router.route(user_query, llm_intent=llm_intent)
+        route = self.router.route(user_query, llm_intent=llm_intent) if llm_intent else initial_route
         timings["routing"] = time.time() - routing_start
         timings["strategy"] = route["strategy"]
         
@@ -105,21 +173,21 @@ class HybridRunner:
     async def _rag_search(self, query: str, filters: Dict, timings: Dict, explain: bool = False, is_graph_focused: bool = False) -> str:
         """Handles both Hybrid and Graph-Focused RAG execution."""
         
-        # 1. Embed query (Sync operation, kept outside parallel block)
+        # 1. Embed query asynchronously (OPTIMIZATION: Use async embedding)
         embed_start = time.time()
-        query_vec = self.embedder.embed(query)
+        query_vec = await self.embedder.embed_async(query)
         timings["embedding"] = time.time() - embed_start
         
         # 2. Fetch data (Sync operations run in executor)
         top_k_vec = 3 if is_graph_focused else self.top_k
         graph_neighbors = 20 if is_graph_focused else 10 # More neighbors for graph
         
-        # Vector search (needed for node IDs)
+        # Vector search
         vector_start = time.time()
         matches = await _run_sync_io(self.vector_store.query, query_vec, top_k_vec)
         timings["vector_search"] = time.time() - vector_start
         
-        # Graph search (dependent on vector results)
+        # Graph search (run in parallel after we have matches)
         # Extract names from metadata instead of IDs (Neo4j searches by name)
         topic_names = []
         for m in matches:
@@ -176,7 +244,8 @@ class HybridRunner:
                 model=self.chat_model,
                 messages=prompt,
                 max_tokens=max_tokens,
-                temperature=0.2
+                temperature=0.2,
+                timeout=10.0  # OPTIMIZATION: Add timeout to prevent hanging
             )
             return resp.choices[0].message.content
     
@@ -223,7 +292,12 @@ class HybridRunner:
 
         try:
             resp = await self.llm_client.chat.completions.create(
-                model=self.chat_model, messages=messages, temperature=0.2, max_tokens=200, response_format={"type": "json_object"}
+                model=self.chat_model, 
+                messages=messages, 
+                temperature=0.2, 
+                max_tokens=150,  # OPTIMIZATION: Reduced from 200
+                timeout=8.0,  # OPTIMIZATION: Timeout for understanding
+                response_format={"type": "json_object"}
             )
             import json
             result = json.loads(resp.choices[0].message.content)
@@ -253,9 +327,13 @@ class HybridRunner:
     
     def _handle_out_of_scope(self, query: str) -> str:
         return (
-            "I apologize, but I'm specifically designed for Vietnam travel queries. "
-            "I can help with destinations, hotels, restaurants, attractions, itineraries, and general Vietnam travel info. "
-            "Would you like to ask about traveling in Vietnam instead?"
+            "I apologize, but I'm specifically designed to assist with Vietnam travel planning. "
+            "I can help you with:\n"
+            "• Hotels, restaurants, and attractions in Vietnam\n"
+            "• Travel itineraries and route planning\n"
+            "• Cultural tips and local recommendations\n"
+            "• Transportation and logistics within Vietnam\n\n"
+            "Is there anything about traveling to Vietnam I can help you with?"
         )
     
     # === PRIVATE HELPERS: TIMING & STATS (CONSOLIDATED) ===

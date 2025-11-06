@@ -11,7 +11,8 @@ This project is a major upgrade over the original monolithic `docs/hybrid_chat.p
 ## Intelligence
 - **Two-Phase System**: Phase 1 (greeting/out-of-scope detection), Phase 2 (routing and retrieval)
 - **Conversation History**: Maintains context for follow-up questions
-- **Out-of-Scope Detection**: Politely handles non-Vietnam queries
+- **Strict Scope Detection**: Blocks non-travel queries (recipes, math, coding) and non-Vietnam destinations
+- **Smart Understanding**: LLM-powered analysis catches edge cases like "tea recipe" vs "Vietnamese tea ceremony"
 
 ## Performance
 - **Parallel Execution**: Vector and graph queries run at the same time (40-60% faster)
@@ -32,12 +33,14 @@ This project is a major upgrade over the original monolithic `docs/hybrid_chat.p
 
 - Converted the single, monolithic assistant into a cleaner, easier-to-maintain codebase while keeping the main orchestration in `src/agent.py`.
 - Made query understanding (LLM analysis) the first step after trivial greeting checks. This prevents follow-up questions from being misclassified as out-of-scope.
+- **Strengthened scope detection**: Updated understanding prompt to catch non-travel queries (recipes, math, coding) in addition to non-Vietnam destinations.
 - Updated `src/router.py` so routing can accept LLM-provided intent and use it to choose graph/direct/hybrid strategies.
 - Fixed caching so responses are reliably reused for identical queries (removed volatile conversation-history hash from the cache key).
 - Restored and centralized LLM generation helpers to support normal and streaming responses cleanly (`_generate_llm_response`, `_stream_llm_response`).
 - Improved prompts to instruct the LLM to return plain text (no Markdown) to avoid formatting artifacts in the CLI.
 - Added timing and logging improvements to make performance and debugging information available during runs.
 - Cleaned and simplified the README and added `.env.example` and troubleshooting notes (including Neo4j Aura guidance).
+- **Performance optimizations**: Added parallel execution, async embeddings, and optional Cerebras integration for 10x faster inference.
 
 ## Why these changes
 

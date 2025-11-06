@@ -3,17 +3,23 @@ import json
 import time
 import os
 import hashlib
+import sys
+from pathlib import Path
 from tqdm import tqdm
 from openai import OpenAI
 from pinecone import Pinecone, ServerlessSpec
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tenacity import retry, stop_after_attempt, wait_exponential
+
+# Add parent directory to path so we can import from src
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from src import config
 
 # -----------------------------
 # Config
 # -----------------------------
-DATA_FILE = "D://hybrid_chat_test/data/vietnam_travel_dataset.json"
+DATA_FILE = "data/vietnam_travel_dataset_enhanced.json"
 BATCH_SIZE = 32
 MAX_WORKERS = 5   # number of parallel threads
 INDEX_NAME = config.PINECONE_INDEX_NAME

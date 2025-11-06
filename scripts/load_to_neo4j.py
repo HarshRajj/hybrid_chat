@@ -1,8 +1,15 @@
 import json
+import sys
+from pathlib import Path
 from neo4j import GraphDatabase
 from tqdm import tqdm
-from ..src import config
-DATA_FILE = "vietnam_travel_dataset.json"
+
+# Add parent directory to path so we can import from src
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src import config
+
+DATA_FILE = "data/vietnam_travel_dataset_enhanced.json"
 
 driver = GraphDatabase.driver(config.NEO4J_URI, auth=(config.NEO4J_USER, config.NEO4J_PASSWORD))
 

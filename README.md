@@ -24,13 +24,21 @@ A smart travel assistant for planning trips to Vietnam. Combines semantic search
 2. **Set up environment**
    - Create a `.env` file in the project root:
      ```env
+     # Required
      OPENAI_API_KEY=sk-your-key-here
      PINECONE_API_KEY=your-pinecone-key
      NEO4J_URI=neo4j+s://your-instance.databases.neo4j.io
      NEO4J_USER=neo4j
      NEO4J_PASSWORD=your-password
+     
+     # Optional: Use Cerebras for 10x faster inference
+     USE_CEREBRAS=true
+     CEREBRAS_API_KEY=csk-your-cerebras-key
+     CEREBRAS_MODEL=llama3.1-8b
      ```
    - **For Neo4j Aura**: Use `neo4j+s://` URI from your Aura instance connection details
+   - **For Cerebras**: Get free API key at https://cloud.cerebras.ai/ (1,800 tokens/s!)
+
 
 
 3. **Load data (first-time setup only)**
