@@ -2,7 +2,7 @@ import os
 import json
 import hashlib
 from typing import List, Dict
-from openai import OpenAI
+from openai import OpenAI, AsyncOpenAI
 from src import config
 
 class Embedder:
@@ -11,6 +11,7 @@ class Embedder:
     def __init__(self, model: str = None, cache_path: str = "data/embeddings_cache.json"):
         self.model = model or config.EMBED_MODEL or "text-embedding-3-small"
         self.client = OpenAI(api_key=config.OPENAI_API_KEY)
+        self.async_client = AsyncOpenAI(api_key=config.OPENAI_API_KEY)  # OPTIMIZATION: Async client
         self.cache_path = cache_path
         os.makedirs(os.path.dirname(self.cache_path), exist_ok=True)
         self._cache = self._load_cache()
@@ -39,6 +40,18 @@ class Embedder:
             return self._cache[key]
         
         resp = self.client.embeddings.create(model=self.model, input=[text])
+        emb = resp.data[0].embedding
+        self._cache[key] = emb
+        self._save_cache()
+        return emb
+    
+    async def embed_async(self, text: str) -> List[float]:
+        """OPTIMIZATION: Async embedding for better performance."""
+        key = self._cache_key(text)
+        if key in self._cache:
+            return self._cache[key]
+        
+        resp = await self.async_client.embeddings.create(model=self.model, input=[text])
         emb = resp.data[0].embedding
         self._cache[key] = emb
         self._save_cache()

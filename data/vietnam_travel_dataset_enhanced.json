@@ -1,0 +1,5942 @@
+[
+  {
+    "id": "city_hanoi",
+    "type": "City",
+    "name": "Hanoi",
+    "region": "Northern Vietnam",
+    "description": "Hanoi is located in Northern Vietnam. It’s known for its culture, food, heritage experiences, combining local culture, food, and history. Travelers often visit for authentic Vietnamese experiences, from exploring markets and temples to trying street food and scenic excursions.",
+    "best_time_to_visit": "February to May",
+    "tags": [
+      "culture",
+      "food",
+      "heritage"
+    ],
+    "semantic_text": "Hanoi offers a mix of culture, food, heritage attractions and is a must-visit for those seeking immersive travel experiences in Vietnam.",
+    "connections": [
+      {
+        "relation": "Connected_To",
+        "target": "city_hue"
+      },
+      {
+        "relation": "Connected_To",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_1_hanoi",
+    "type": "Attraction",
+    "name": "Ho Chi Minh Mausoleum",
+    "city": "Hanoi",
+    "description": "The grand mausoleum housing the embalmed body of Vietnam's greatest leader Ho Chi Minh, a revered historical site in the heart of Hanoi",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Ho Chi Minh Mausoleum in Hanoi: The grand mausoleum housing the embalmed body of Vietnam's greatest leader Ho Chi Minh, a revered hi...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "attraction_2_hanoi",
+    "type": "Attraction",
+    "name": "Temple of Literature",
+    "city": "Hanoi",
+    "description": "An ancient Confucian temple built in 1070 dedicated to Confucius and scholars, featuring five courtyards with stone paths and ponds symbolizing Vietnamese education",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Temple of Literature in Hanoi: An ancient Confucian temple built in 1070 dedicated to Confucius and scholars, featuring five courty...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "attraction_3_hanoi",
+    "type": "Attraction",
+    "name": "Hoan Kiem Lake",
+    "city": "Hanoi",
+    "description": "A natural landmark in central Hanoi surrounded by scenic walking paths and lush greenery with the historic Ngoc Son Temple on a small island",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Hoan Kiem Lake in Hanoi: A natural landmark in central Hanoi surrounded by scenic walking paths and lush greenery with the hi...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "attraction_4_hanoi",
+    "type": "Attraction",
+    "name": "One Pillar Pagoda",
+    "city": "Hanoi",
+    "description": "A unique architectural marvel built in 1049 rising from a pond, symbolizing purity and enlightenment with its distinctive lotus flower design",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "One Pillar Pagoda in Hanoi: A unique architectural marvel built in 1049 rising from a pond, symbolizing purity and enlightenment...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "attraction_5_hanoi",
+    "type": "Attraction",
+    "name": "Hanoi Old Quarter",
+    "city": "Hanoi",
+    "description": "The vibrant historic heart of Hanoi with narrow streets, traditional architecture, and bustling markets representing centuries of Vietnamese culture",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Hanoi Old Quarter in Hanoi: The vibrant historic heart of Hanoi with narrow streets, traditional architecture, and bustling mark...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "attraction_6_hanoi",
+    "type": "Attraction",
+    "name": "Vietnam National Museum of History",
+    "city": "Hanoi",
+    "description": "Comprehensive museum showcasing Vietnam's historical heritage spanning thousands of years with extensive artifact collections",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Vietnam National Museum of History in Hanoi: Comprehensive museum showcasing Vietnam's historical heritage spanning thousands of years with exten...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "attraction_7_hanoi",
+    "type": "Attraction",
+    "name": "Hoa Lo Prison",
+    "city": "Hanoi",
+    "description": "A historical site preserving remnants of the French colonial era prison, offering insight into Vietnam's struggle for independence",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Hoa Lo Prison in Hanoi: A historical site preserving remnants of the French colonial era prison, offering insight into Vietn...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "attraction_8_hanoi",
+    "type": "Attraction",
+    "name": "St. Joseph's Cathedral",
+    "city": "Hanoi",
+    "description": "A neo-Gothic church built in 1886 famous for its twin bell towers and colorful stained-glass windows, popular for photography",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "St. Joseph's Cathedral in Hanoi: A neo-Gothic church built in 1886 famous for its twin bell towers and colorful stained-glass windows...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "attraction_9_hanoi",
+    "type": "Attraction",
+    "name": "Hanoi Opera House",
+    "city": "Hanoi",
+    "description": "An iconic French colonial architecture landmark showcasing classical beauty and hosting various cultural performances",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Hanoi Opera House in Hanoi: An iconic French colonial architecture landmark showcasing classical beauty and hosting various cult...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "attraction_10_hanoi",
+    "type": "Attraction",
+    "name": "Truc Bach Lake",
+    "city": "Hanoi",
+    "description": "A peaceful lake area combining scenic beauty with historical significance, offering relaxation and cultural exploration",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Truc Bach Lake in Hanoi: A peaceful lake area combining scenic beauty with historical significance, offering relaxation and c...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "hotel_1_hanoi",
+    "type": "Hotel",
+    "name": "Hanoi Luxury Plaza",
+    "city": "Hanoi",
+    "description": "Hanoi Luxury Plaza is a premium accommodation option in Hanoi, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Hanoi Luxury Plaza in Hanoi for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "hotel_2_hanoi",
+    "type": "Hotel",
+    "name": "The Old Quarter Heritage Hotel",
+    "city": "Hanoi",
+    "description": "The Old Quarter Heritage Hotel is a premium accommodation option in Hanoi, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at The Old Quarter Heritage Hotel in Hanoi for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "hotel_3_hanoi",
+    "type": "Hotel",
+    "name": "Golden Lotus Boutique Hotel",
+    "city": "Hanoi",
+    "description": "Golden Lotus Boutique Hotel is a premium accommodation option in Hanoi, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Golden Lotus Boutique Hotel in Hanoi for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "hotel_4_hanoi",
+    "type": "Hotel",
+    "name": "Metropole Hanoi Historic",
+    "city": "Hanoi",
+    "description": "Metropole Hanoi Historic is a premium accommodation option in Hanoi, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Metropole Hanoi Historic in Hanoi for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "hotel_5_hanoi",
+    "type": "Hotel",
+    "name": "Red River View Hotel",
+    "city": "Hanoi",
+    "description": "Red River View Hotel is a premium accommodation option in Hanoi, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Red River View Hotel in Hanoi for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "hotel_6_hanoi",
+    "type": "Hotel",
+    "name": "Silk Road Heritage Inn",
+    "city": "Hanoi",
+    "description": "Silk Road Heritage Inn is a premium accommodation option in Hanoi, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Silk Road Heritage Inn in Hanoi for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "hotel_7_hanoi",
+    "type": "Hotel",
+    "name": "Vintage Hanoi Residence",
+    "city": "Hanoi",
+    "description": "Vintage Hanoi Residence is a premium accommodation option in Hanoi, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Vintage Hanoi Residence in Hanoi for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "hotel_8_hanoi",
+    "type": "Hotel",
+    "name": "Central Park Inn Hanoi",
+    "city": "Hanoi",
+    "description": "Central Park Inn Hanoi is a premium accommodation option in Hanoi, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Central Park Inn Hanoi in Hanoi for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "hotel_9_hanoi",
+    "type": "Hotel",
+    "name": "Peaceful Lake Resort",
+    "city": "Hanoi",
+    "description": "Peaceful Lake Resort is a premium accommodation option in Hanoi, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Peaceful Lake Resort in Hanoi for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "hotel_10_hanoi",
+    "type": "Hotel",
+    "name": "French Quarter Charm Hotel",
+    "city": "Hanoi",
+    "description": "French Quarter Charm Hotel is a premium accommodation option in Hanoi, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at French Quarter Charm Hotel in Hanoi for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "activity_1_hanoi",
+    "type": "Activity",
+    "name": "Water Puppet Theatre Performance",
+    "city": "Hanoi",
+    "description": "Water Puppet Theatre Performance is a must-do experience in Hanoi, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Water Puppet Theatre Performance in Hanoi for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "activity_2_hanoi",
+    "type": "Activity",
+    "name": "Hanoi Street Food Walking Tour",
+    "city": "Hanoi",
+    "description": "Hanoi Street Food Walking Tour is a must-do experience in Hanoi, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Hanoi Street Food Walking Tour in Hanoi for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "activity_3_hanoi",
+    "type": "Activity",
+    "name": "Cyclo Rickshaw Tour of Old Quarter",
+    "city": "Hanoi",
+    "description": "Cyclo Rickshaw Tour of Old Quarter is a must-do experience in Hanoi, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Cyclo Rickshaw Tour of Old Quarter in Hanoi for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "activity_4_hanoi",
+    "type": "Activity",
+    "name": "Traditional Cooking Class",
+    "city": "Hanoi",
+    "description": "Traditional Cooking Class is a must-do experience in Hanoi, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Traditional Cooking Class in Hanoi for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "activity_5_hanoi",
+    "type": "Activity",
+    "name": "Tai Chi at Hoan Kiem Lake",
+    "city": "Hanoi",
+    "description": "Tai Chi at Hoan Kiem Lake is a must-do experience in Hanoi, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Tai Chi at Hoan Kiem Lake in Hanoi for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "activity_6_hanoi",
+    "type": "Activity",
+    "name": "Night Market Exploration",
+    "city": "Hanoi",
+    "description": "Night Market Exploration is a must-do experience in Hanoi, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Night Market Exploration in Hanoi for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "activity_7_hanoi",
+    "type": "Activity",
+    "name": "Motorbike City Tour",
+    "city": "Hanoi",
+    "description": "Motorbike City Tour is a must-do experience in Hanoi, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Motorbike City Tour in Hanoi for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "activity_8_hanoi",
+    "type": "Activity",
+    "name": "Vietnamese Art & Craft Workshop",
+    "city": "Hanoi",
+    "description": "Vietnamese Art & Craft Workshop is a must-do experience in Hanoi, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Vietnamese Art & Craft Workshop in Hanoi for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "activity_9_hanoi",
+    "type": "Activity",
+    "name": "Historic Train Street Visit",
+    "city": "Hanoi",
+    "description": "Historic Train Street Visit is a must-do experience in Hanoi, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Historic Train Street Visit in Hanoi for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "activity_10_hanoi",
+    "type": "Activity",
+    "name": "Sunrise Photography Tour",
+    "city": "Hanoi",
+    "description": "Sunrise Photography Tour is a must-do experience in Hanoi, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Sunrise Photography Tour in Hanoi for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hanoi"
+      }
+    ]
+  },
+  {
+    "id": "city_ha_long",
+    "type": "City",
+    "name": "Ha Long Bay",
+    "region": "Northern Vietnam",
+    "description": "Ha Long Bay is located in Northern Vietnam. It’s known for its beach, cruise, nature experiences, combining local culture, food, and history. Travelers often visit for authentic Vietnamese experiences, from exploring markets and temples to trying street food and scenic excursions.",
+    "best_time_to_visit": "February to May",
+    "tags": [
+      "beach",
+      "cruise",
+      "nature"
+    ],
+    "semantic_text": "Ha Long Bay offers a mix of beach, cruise, nature attractions and is a must-visit for those seeking immersive travel experiences in Vietnam.",
+    "connections": [
+      {
+        "relation": "Connected_To",
+        "target": "city_hoi_an"
+      },
+      {
+        "relation": "Connected_To",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "attraction_1_ha_long_bay",
+    "type": "Attraction",
+    "name": "Sung Sot Cave",
+    "city": "Ha Long Bay",
+    "description": "The most famous cave in Ha Long Bay on Bo Hon Island, featuring vast chambers with stunning stalactites and stalagmites reaching 30 meters high",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "Sung Sot Cave in Ha Long Bay: The most famous cave in Ha Long Bay on Bo Hon Island, featuring vast chambers with stunning stalacti...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "attraction_2_ha_long_bay",
+    "type": "Attraction",
+    "name": "Thien Cung Cave",
+    "city": "Ha Long Bay",
+    "description": "Known as the Heavenly Palace Cave with multiple interconnected chambers and LED-lit stalactites creating a magical underground palace effect",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Thien Cung Cave in Ha Long Bay: Known as the Heavenly Palace Cave with multiple interconnected chambers and LED-lit stalactites crea...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "attraction_3_ha_long_bay",
+    "type": "Attraction",
+    "name": "Dau Go Cave",
+    "city": "Ha Long Bay",
+    "description": "One of the oldest and most majestic caves with three chambers, three stone pillars, and rock formations resembling animals",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Dau Go Cave in Ha Long Bay: One of the oldest and most majestic caves with three chambers, three stone pillars, and rock formati...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "attraction_4_ha_long_bay",
+    "type": "Attraction",
+    "name": "Luon Cave",
+    "city": "Ha Long Bay",
+    "description": "A unique water cave accessible only by bamboo boat or kayak, leading to a serene jade green lagoon surrounded by limestone mountains",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Luon Cave in Ha Long Bay: A unique water cave accessible only by bamboo boat or kayak, leading to a serene jade green lagoon s...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "attraction_5_ha_long_bay",
+    "type": "Attraction",
+    "name": "Thien Canh Son Cave",
+    "city": "Ha Long Bay",
+    "description": "A pristine, less commercialized cave in Bai Tu Long Bay requiring a climb of 100 stone steps with breathtaking panoramic views",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Thien Canh Son Cave in Ha Long Bay: A pristine, less commercialized cave in Bai Tu Long Bay requiring a climb of 100 stone steps with br...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "attraction_6_ha_long_bay",
+    "type": "Attraction",
+    "name": "Limestone Karst Islands",
+    "city": "Ha Long Bay",
+    "description": "UNESCO World Heritage limestone formations rising dramatically from emerald waters, creating one of the world's most spectacular seascapes",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Limestone Karst Islands in Ha Long Bay: UNESCO World Heritage limestone formations rising dramatically from emerald waters, creating one of ...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "attraction_7_ha_long_bay",
+    "type": "Attraction",
+    "name": "Titop Island",
+    "city": "Ha Long Bay",
+    "description": "A popular island destination offering sandy beaches, hiking trails, and panoramic viewpoints overlooking the entire Ha Long Bay",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "Titop Island in Ha Long Bay: A popular island destination offering sandy beaches, hiking trails, and panoramic viewpoints overloo...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "attraction_8_ha_long_bay",
+    "type": "Attraction",
+    "name": "Surprise Beach",
+    "city": "Ha Long Bay",
+    "description": "A secluded sandy beach nestled between limestone cliffs, perfect for swimming and relaxation away from crowds",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "Surprise Beach in Ha Long Bay: A secluded sandy beach nestled between limestone cliffs, perfect for swimming and relaxation away fr...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "attraction_9_ha_long_bay",
+    "type": "Attraction",
+    "name": "Sun World Ha Long Park",
+    "city": "Ha Long Bay",
+    "description": "A modern amusement park offering scenic cable car rides, water parks, and entertainment with stunning bay views",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Sun World Ha Long Park in Ha Long Bay: A modern amusement park offering scenic cable car rides, water parks, and entertainment with stunnin...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "attraction_10_ha_long_bay",
+    "type": "Attraction",
+    "name": "Cat Ba Island",
+    "city": "Ha Long Bay",
+    "description": "Vietnam's largest island within Ha Long Bay offering adventure activities, natural beauty, and diverse wildlife",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "Cat Ba Island in Ha Long Bay: Vietnam's largest island within Ha Long Bay offering adventure activities, natural beauty, and diver...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "hotel_1_ha_long_bay",
+    "type": "Hotel",
+    "name": "Paradise Luxury Cruise",
+    "city": "Ha Long Bay",
+    "description": "Paradise Luxury Cruise is a premium accommodation option in Ha Long Bay, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Paradise Luxury Cruise in Ha Long Bay for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "hotel_2_ha_long_bay",
+    "type": "Hotel",
+    "name": "Ha Long Bay Star Resort",
+    "city": "Ha Long Bay",
+    "description": "Ha Long Bay Star Resort is a premium accommodation option in Ha Long Bay, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Ha Long Bay Star Resort in Ha Long Bay for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "hotel_3_ha_long_bay",
+    "type": "Hotel",
+    "name": "Emerald Waters Hotel",
+    "city": "Ha Long Bay",
+    "description": "Emerald Waters Hotel is a premium accommodation option in Ha Long Bay, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Emerald Waters Hotel in Ha Long Bay for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "hotel_4_ha_long_bay",
+    "type": "Hotel",
+    "name": "Limestone Palace Hotel",
+    "city": "Ha Long Bay",
+    "description": "Limestone Palace Hotel is a premium accommodation option in Ha Long Bay, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Limestone Palace Hotel in Ha Long Bay for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "hotel_5_ha_long_bay",
+    "type": "Hotel",
+    "name": "Adventure Bay Cruises",
+    "city": "Ha Long Bay",
+    "description": "Adventure Bay Cruises is a premium accommodation option in Ha Long Bay, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Adventure Bay Cruises in Ha Long Bay for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "hotel_6_ha_long_bay",
+    "type": "Hotel",
+    "name": "Pristine Island Resort",
+    "city": "Ha Long Bay",
+    "description": "Pristine Island Resort is a premium accommodation option in Ha Long Bay, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Pristine Island Resort in Ha Long Bay for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "hotel_7_ha_long_bay",
+    "type": "Hotel",
+    "name": "Heritage Ha Long Hotel",
+    "city": "Ha Long Bay",
+    "description": "Heritage Ha Long Hotel is a premium accommodation option in Ha Long Bay, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Heritage Ha Long Hotel in Ha Long Bay for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "hotel_8_ha_long_bay",
+    "type": "Hotel",
+    "name": "Modern Karst Hotel",
+    "city": "Ha Long Bay",
+    "description": "Modern Karst Hotel is a premium accommodation option in Ha Long Bay, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Modern Karst Hotel in Ha Long Bay for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "hotel_9_ha_long_bay",
+    "type": "Hotel",
+    "name": "Bay Breeze Boutique",
+    "city": "Ha Long Bay",
+    "description": "Bay Breeze Boutique is a premium accommodation option in Ha Long Bay, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Bay Breeze Boutique in Ha Long Bay for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "hotel_10_ha_long_bay",
+    "type": "Hotel",
+    "name": "Scenic Sunset Resort",
+    "city": "Ha Long Bay",
+    "description": "Scenic Sunset Resort is a premium accommodation option in Ha Long Bay, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Scenic Sunset Resort in Ha Long Bay for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "activity_1_ha_long_bay",
+    "type": "Activity",
+    "name": "Cruise Through Limestone Karsts",
+    "city": "Ha Long Bay",
+    "description": "Cruise Through Limestone Karsts is a must-do experience in Ha Long Bay, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Cruise Through Limestone Karsts in Ha Long Bay for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "activity_2_ha_long_bay",
+    "type": "Activity",
+    "name": "Sung Sot Cave Exploration",
+    "city": "Ha Long Bay",
+    "description": "Sung Sot Cave Exploration is a must-do experience in Ha Long Bay, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Sung Sot Cave Exploration in Ha Long Bay for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "activity_3_ha_long_bay",
+    "type": "Activity",
+    "name": "Kayaking Around Islands",
+    "city": "Ha Long Bay",
+    "description": "Kayaking Around Islands is a must-do experience in Ha Long Bay, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Kayaking Around Islands in Ha Long Bay for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "activity_4_ha_long_bay",
+    "type": "Activity",
+    "name": "Swimming at Surprise Beach",
+    "city": "Ha Long Bay",
+    "description": "Swimming at Surprise Beach is a must-do experience in Ha Long Bay, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Swimming at Surprise Beach in Ha Long Bay for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "activity_5_ha_long_bay",
+    "type": "Activity",
+    "name": "Bamboo Boat Adventure",
+    "city": "Ha Long Bay",
+    "description": "Bamboo Boat Adventure is a must-do experience in Ha Long Bay, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Bamboo Boat Adventure in Ha Long Bay for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "activity_6_ha_long_bay",
+    "type": "Activity",
+    "name": "Sunset Photography Tour",
+    "city": "Ha Long Bay",
+    "description": "Sunset Photography Tour is a must-do experience in Ha Long Bay, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Sunset Photography Tour in Ha Long Bay for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "activity_7_ha_long_bay",
+    "type": "Activity",
+    "name": "Squid Fishing Night Experience",
+    "city": "Ha Long Bay",
+    "description": "Squid Fishing Night Experience is a must-do experience in Ha Long Bay, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Squid Fishing Night Experience in Ha Long Bay for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "activity_8_ha_long_bay",
+    "type": "Activity",
+    "name": "Rock Climbing on Karsts",
+    "city": "Ha Long Bay",
+    "description": "Rock Climbing on Karsts is a must-do experience in Ha Long Bay, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Rock Climbing on Karsts in Ha Long Bay for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "activity_9_ha_long_bay",
+    "type": "Activity",
+    "name": "Beach Picnic Adventure",
+    "city": "Ha Long Bay",
+    "description": "Beach Picnic Adventure is a must-do experience in Ha Long Bay, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Beach Picnic Adventure in Ha Long Bay for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "activity_10_ha_long_bay",
+    "type": "Activity",
+    "name": "Underwater Discovery Diving",
+    "city": "Ha Long Bay",
+    "description": "Underwater Discovery Diving is a must-do experience in Ha Long Bay, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Underwater Discovery Diving in Ha Long Bay for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "city_hoi_an",
+    "type": "City",
+    "name": "Hoi An",
+    "region": "Central Vietnam",
+    "description": "Hoi An is located in Central Vietnam. It’s known for its lanterns, romantic, heritage experiences, combining local culture, food, and history. Travelers often visit for authentic Vietnamese experiences, from exploring markets and temples to trying street food and scenic excursions.",
+    "best_time_to_visit": "October to April",
+    "tags": [
+      "lanterns",
+      "romantic",
+      "heritage"
+    ],
+    "semantic_text": "Hoi An offers a mix of lanterns, romantic, heritage attractions and is a must-visit for those seeking immersive travel experiences in Vietnam.",
+    "connections": [
+      {
+        "relation": "Connected_To",
+        "target": "city_nha_trang"
+      },
+      {
+        "relation": "Connected_To",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "attraction_1_hoi_an",
+    "type": "Attraction",
+    "name": "Hoi An Ancient Town",
+    "city": "Hoi An",
+    "description": "A UNESCO World Cultural Heritage site featuring well-preserved 15th-16th century architecture blending Japanese, Chinese, and French colonial styles",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Hoi An Ancient Town in Hoi An: A UNESCO World Cultural Heritage site featuring well-preserved 15th-16th century architecture blendi...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "attraction_2_hoi_an",
+    "type": "Attraction",
+    "name": "Japanese Covered Bridge",
+    "city": "Hoi An",
+    "description": "A stunning 16th-century wooden bridge with Japanese architectural influence, connecting the Ancient Town and representing Hoi An's iconic landmark",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Japanese Covered Bridge in Hoi An: A stunning 16th-century wooden bridge with Japanese architectural influence, connecting the Ancient ...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "attraction_3_hoi_an",
+    "type": "Attraction",
+    "name": "Tan Ky House",
+    "city": "Hoi An",
+    "description": "An exquisite 18th-century merchant's home lived in by seven generations, showcasing Asian architecture with the famous 'One Hundred Birds' lacquered board",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Tan Ky House in Hoi An: An exquisite 18th-century merchant's home lived in by seven generations, showcasing Asian architectu...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "attraction_4_hoi_an",
+    "type": "Attraction",
+    "name": "Museum of History and Culture",
+    "city": "Hoi An",
+    "description": "Comprehensive museum providing deep insight into Hoi An's story spanning 2,000 years with extensive historical artifacts",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Museum of History and Culture in Hoi An: Comprehensive museum providing deep insight into Hoi An's story spanning 2,000 years with extensive ...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "attraction_5_hoi_an",
+    "type": "Attraction",
+    "name": "Museum of Folklore",
+    "city": "Hoi An",
+    "description": "Museum showcasing traditional crafts and cultural practices with live performances demonstrating Vietnamese heritage",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Museum of Folklore in Hoi An: Museum showcasing traditional crafts and cultural practices with live performances demonstrating Vie...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "attraction_6_hoi_an",
+    "type": "Attraction",
+    "name": "Museum of Trade Ceramics",
+    "city": "Hoi An",
+    "description": "Dedicated collection of pottery and ceramics reflecting Hoi An's importance as a historic trading port",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Museum of Trade Ceramics in Hoi An: Dedicated collection of pottery and ceramics reflecting Hoi An's importance as a historic trading po...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "attraction_7_hoi_an",
+    "type": "Attraction",
+    "name": "Hoi An Central Market",
+    "city": "Hoi An",
+    "description": "Vibrant marketplace full of local colors, sounds, and aromas offering authentic Vietnamese produce and local delicacies",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Hoi An Central Market in Hoi An: Vibrant marketplace full of local colors, sounds, and aromas offering authentic Vietnamese produce a...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "attraction_8_hoi_an",
+    "type": "Attraction",
+    "name": "Marble Mountains",
+    "city": "Hoi An",
+    "description": "Scenic mountain formations near Hoi An featuring Buddhist caves, tunnels, and the famous Linh Ung Pagoda with panoramic views",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Marble Mountains in Hoi An: Scenic mountain formations near Hoi An featuring Buddhist caves, tunnels, and the famous Linh Ung Pa...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "attraction_9_hoi_an",
+    "type": "Attraction",
+    "name": "Cham Islands",
+    "city": "Hoi An",
+    "description": "UNESCO Biosphere Reserve consisting of eight islands 15km offshore offering pristine beaches and marine biodiversity",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "Cham Islands in Hoi An: UNESCO Biosphere Reserve consisting of eight islands 15km offshore offering pristine beaches and mar...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "attraction_10_hoi_an",
+    "type": "Attraction",
+    "name": "Cam Thanh Coconut Jungle",
+    "city": "Hoi An",
+    "description": "Scenic coconut palm forest where visitors experience traditional basket boat rowing through tranquil waterways",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Cam Thanh Coconut Jungle in Hoi An: Scenic coconut palm forest where visitors experience traditional basket boat rowing through tranquil...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "hotel_1_hoi_an",
+    "type": "Hotel",
+    "name": "Hoi An Riverside Resort",
+    "city": "Hoi An",
+    "description": "Hoi An Riverside Resort is a premium accommodation option in Hoi An, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Hoi An Riverside Resort in Hoi An for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "hotel_2_hoi_an",
+    "type": "Hotel",
+    "name": "Ancient Town Luxury Hotel",
+    "city": "Hoi An",
+    "description": "Ancient Town Luxury Hotel is a premium accommodation option in Hoi An, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Ancient Town Luxury Hotel in Hoi An for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "hotel_3_hoi_an",
+    "type": "Hotel",
+    "name": "Lantern Glow Boutique",
+    "city": "Hoi An",
+    "description": "Lantern Glow Boutique is a premium accommodation option in Hoi An, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Lantern Glow Boutique in Hoi An for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "hotel_4_hoi_an",
+    "type": "Hotel",
+    "name": "Heritage Charm Hotel",
+    "city": "Hoi An",
+    "description": "Heritage Charm Hotel is a premium accommodation option in Hoi An, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Heritage Charm Hotel in Hoi An for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "hotel_5_hoi_an",
+    "type": "Hotel",
+    "name": "Quiet Time Riverside",
+    "city": "Hoi An",
+    "description": "Quiet Time Riverside is a premium accommodation option in Hoi An, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Quiet Time Riverside in Hoi An for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "hotel_6_hoi_an",
+    "type": "Hotel",
+    "name": "French Colonial Inn",
+    "city": "Hoi An",
+    "description": "French Colonial Inn is a premium accommodation option in Hoi An, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at French Colonial Inn in Hoi An for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "hotel_7_hoi_an",
+    "type": "Hotel",
+    "name": "Peace Sanctuary Hotel",
+    "city": "Hoi An",
+    "description": "Peace Sanctuary Hotel is a premium accommodation option in Hoi An, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Peace Sanctuary Hotel in Hoi An for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "hotel_8_hoi_an",
+    "type": "Hotel",
+    "name": "Artisan's Quarter Residence",
+    "city": "Hoi An",
+    "description": "Artisan's Quarter Residence is a premium accommodation option in Hoi An, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Artisan's Quarter Residence in Hoi An for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "hotel_9_hoi_an",
+    "type": "Hotel",
+    "name": "Golden Pagoda Hotel",
+    "city": "Hoi An",
+    "description": "Golden Pagoda Hotel is a premium accommodation option in Hoi An, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Golden Pagoda Hotel in Hoi An for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "hotel_10_hoi_an",
+    "type": "Hotel",
+    "name": "Romantic Evening Resort",
+    "city": "Hoi An",
+    "description": "Romantic Evening Resort is a premium accommodation option in Hoi An, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Romantic Evening Resort in Hoi An for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "activity_1_hoi_an",
+    "type": "Activity",
+    "name": "Walking Tour of Ancient Town",
+    "city": "Hoi An",
+    "description": "Walking Tour of Ancient Town is a must-do experience in Hoi An, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Walking Tour of Ancient Town in Hoi An for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "activity_2_hoi_an",
+    "type": "Activity",
+    "name": "Lantern Making Workshop",
+    "city": "Hoi An",
+    "description": "Lantern Making Workshop is a must-do experience in Hoi An, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Lantern Making Workshop in Hoi An for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "activity_3_hoi_an",
+    "type": "Activity",
+    "name": "Traditional Tailor Shop Visit",
+    "city": "Hoi An",
+    "description": "Traditional Tailor Shop Visit is a must-do experience in Hoi An, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Traditional Tailor Shop Visit in Hoi An for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "activity_4_hoi_an",
+    "type": "Activity",
+    "name": "Cooking Class & Market Tour",
+    "city": "Hoi An",
+    "description": "Cooking Class & Market Tour is a must-do experience in Hoi An, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Cooking Class & Market Tour in Hoi An for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "activity_5_hoi_an",
+    "type": "Activity",
+    "name": "Basket Boat Rowing Experience",
+    "city": "Hoi An",
+    "description": "Basket Boat Rowing Experience is a must-do experience in Hoi An, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Basket Boat Rowing Experience in Hoi An for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "activity_6_hoi_an",
+    "type": "Activity",
+    "name": "Photography at Sunrise",
+    "city": "Hoi An",
+    "description": "Photography at Sunrise is a must-do experience in Hoi An, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Photography at Sunrise in Hoi An for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "activity_7_hoi_an",
+    "type": "Activity",
+    "name": "Evening Lantern Festival Celebration",
+    "city": "Hoi An",
+    "description": "Evening Lantern Festival Celebration is a must-do experience in Hoi An, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Evening Lantern Festival Celebration in Hoi An for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "activity_8_hoi_an",
+    "type": "Activity",
+    "name": "Marble Mountain Trekking",
+    "city": "Hoi An",
+    "description": "Marble Mountain Trekking is a must-do experience in Hoi An, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Marble Mountain Trekking in Hoi An for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "activity_9_hoi_an",
+    "type": "Activity",
+    "name": "Cham Islands Snorkeling",
+    "city": "Hoi An",
+    "description": "Cham Islands Snorkeling is a must-do experience in Hoi An, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Cham Islands Snorkeling in Hoi An for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "activity_10_hoi_an",
+    "type": "Activity",
+    "name": "Traditional Water Puppetry Show",
+    "city": "Hoi An",
+    "description": "Traditional Water Puppetry Show is a must-do experience in Hoi An, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Traditional Water Puppetry Show in Hoi An for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hoi_an"
+      }
+    ]
+  },
+  {
+    "id": "city_ho_chi_minh",
+    "type": "City",
+    "name": "Ho Chi Minh City",
+    "region": "Southern Vietnam",
+    "description": "Ho Chi Minh City is located in Southern Vietnam. It’s known for its urban, history, markets experiences, combining local culture, food, and history. Travelers often visit for authentic Vietnamese experiences, from exploring markets and temples to trying street food and scenic excursions.",
+    "best_time_to_visit": "February to May",
+    "tags": [
+      "urban",
+      "history",
+      "markets"
+    ],
+    "semantic_text": "Ho Chi Minh City offers a mix of urban, history, markets attractions and is a must-visit for those seeking immersive travel experiences in Vietnam.",
+    "connections": [
+      {
+        "relation": "Connected_To",
+        "target": "city_mekong"
+      },
+      {
+        "relation": "Connected_To",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "attraction_1_ho_chi_minh_city",
+    "type": "Attraction",
+    "name": "War Remnants Museum",
+    "city": "Ho Chi Minh City",
+    "description": "The most visited museum in Ho Chi Minh City documenting the Vietnam War with historical photographs, military equipment, and powerful exhibits",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "War Remnants Museum in Ho Chi Minh City: The most visited museum in Ho Chi Minh City documenting the Vietnam War with historical photographs,...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "attraction_2_ho_chi_minh_city",
+    "type": "Attraction",
+    "name": "Bitexco Financial Tower",
+    "city": "Ho Chi Minh City",
+    "description": "Vietnam's second tallest building shaped like a lotus bud with 262.5m height, featuring the Saigon Skydeck observation deck on the 49th floor",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Bitexco Financial Tower in Ho Chi Minh City: Vietnam's second tallest building shaped like a lotus bud with 262.5m height, featuring the Saigon S...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "attraction_3_ho_chi_minh_city",
+    "type": "Attraction",
+    "name": "Ben Thanh Market",
+    "city": "Ho Chi Minh City",
+    "description": "The symbol and soul of Saigon with over 1,500 booths trading everything from traditional Vietnamese food to souvenirs and local crafts",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Ben Thanh Market in Ho Chi Minh City: The symbol and soul of Saigon with over 1,500 booths trading everything from traditional Vietnamese ...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "attraction_4_ho_chi_minh_city",
+    "type": "Attraction",
+    "name": "Independence Palace",
+    "city": "Ho Chi Minh City",
+    "description": "A historical monument witnessing Vietnam's victory after the war, showcasing remarkable architecture and cultural significance",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Independence Palace in Ho Chi Minh City: A historical monument witnessing Vietnam's victory after the war, showcasing remarkable architecture...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "attraction_5_ho_chi_minh_city",
+    "type": "Attraction",
+    "name": "Notre Dame Cathedral",
+    "city": "Ho Chi Minh City",
+    "description": "The oldest church in Ho Chi Minh City, called the 'Saigon Cathedral', featuring neo-gothic architecture and spiritual tranquility",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Notre Dame Cathedral in Ho Chi Minh City: The oldest church in Ho Chi Minh City, called the 'Saigon Cathedral', featuring neo-gothic architect...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "attraction_6_ho_chi_minh_city",
+    "type": "Attraction",
+    "name": "Golden Dragon Water Puppet Theater",
+    "city": "Ho Chi Minh City",
+    "description": "An ancient Vietnamese art form brought to life with captivating water puppet performances in a modern theater setting",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Golden Dragon Water Puppet Theater in Ho Chi Minh City: An ancient Vietnamese art form brought to life with captivating water puppet performances in a moder...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "attraction_7_ho_chi_minh_city",
+    "type": "Attraction",
+    "name": "Cu Chi Tunnels",
+    "city": "Ho Chi Minh City",
+    "description": "Historic underground tunnel network used during the Vietnam War, offering adventurous exploration of this significant historical site",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Cu Chi Tunnels in Ho Chi Minh City: Historic underground tunnel network used during the Vietnam War, offering adventurous exploration of...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "attraction_8_ho_chi_minh_city",
+    "type": "Attraction",
+    "name": "Jade Pagoda",
+    "city": "Ho Chi Minh City",
+    "description": "A sacred Buddhist temple with jade decorations and religious statues representing spiritual Vietnam",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Jade Pagoda in Ho Chi Minh City: A sacred Buddhist temple with jade decorations and religious statues representing spiritual Vietnam...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "attraction_9_ho_chi_minh_city",
+    "type": "Attraction",
+    "name": "Bitexco Office Building",
+    "city": "Ho Chi Minh City",
+    "description": "Modern architecture landmark in downtown Ho Chi Minh City featuring commercial and cultural significance",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Bitexco Office Building in Ho Chi Minh City: Modern architecture landmark in downtown Ho Chi Minh City featuring commercial and cultural signific...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "attraction_10_ho_chi_minh_city",
+    "type": "Attraction",
+    "name": "Saigon River Cruise",
+    "city": "Ho Chi Minh City",
+    "description": "Scenic boat journey along the iconic river offering evening entertainment, dinner, and panoramic city views",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Saigon River Cruise in Ho Chi Minh City: Scenic boat journey along the iconic river offering evening entertainment, dinner, and panoramic cit...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "hotel_1_ho_chi_minh_city",
+    "type": "Hotel",
+    "name": "Luxury Palace Ho Chi Minh",
+    "city": "Ho Chi Minh City",
+    "description": "Luxury Palace Ho Chi Minh is a premium accommodation option in Ho Chi Minh City, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Luxury Palace Ho Chi Minh in Ho Chi Minh City for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "hotel_2_ho_chi_minh_city",
+    "type": "Hotel",
+    "name": "Saigon Central Plaza Hotel",
+    "city": "Ho Chi Minh City",
+    "description": "Saigon Central Plaza Hotel is a premium accommodation option in Ho Chi Minh City, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Saigon Central Plaza Hotel in Ho Chi Minh City for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "hotel_3_ho_chi_minh_city",
+    "type": "Hotel",
+    "name": "Modern City Inn",
+    "city": "Ho Chi Minh City",
+    "description": "Modern City Inn is a premium accommodation option in Ho Chi Minh City, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Modern City Inn in Ho Chi Minh City for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "hotel_4_ho_chi_minh_city",
+    "type": "Hotel",
+    "name": "Heritage District Hotel",
+    "city": "Ho Chi Minh City",
+    "description": "Heritage District Hotel is a premium accommodation option in Ho Chi Minh City, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Heritage District Hotel in Ho Chi Minh City for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "hotel_5_ho_chi_minh_city",
+    "type": "Hotel",
+    "name": "Riverside Paradise Resort",
+    "city": "Ho Chi Minh City",
+    "description": "Riverside Paradise Resort is a premium accommodation option in Ho Chi Minh City, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Riverside Paradise Resort in Ho Chi Minh City for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "hotel_6_ho_chi_minh_city",
+    "type": "Hotel",
+    "name": "Business Tower Hotel",
+    "city": "Ho Chi Minh City",
+    "description": "Business Tower Hotel is a premium accommodation option in Ho Chi Minh City, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Business Tower Hotel in Ho Chi Minh City for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "hotel_7_ho_chi_minh_city",
+    "type": "Hotel",
+    "name": "Saigon Pearl Boutique",
+    "city": "Ho Chi Minh City",
+    "description": "Saigon Pearl Boutique is a premium accommodation option in Ho Chi Minh City, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Saigon Pearl Boutique in Ho Chi Minh City for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "hotel_8_ho_chi_minh_city",
+    "type": "Hotel",
+    "name": "Urban Comfort Inn",
+    "city": "Ho Chi Minh City",
+    "description": "Urban Comfort Inn is a premium accommodation option in Ho Chi Minh City, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Urban Comfort Inn in Ho Chi Minh City for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "hotel_9_ho_chi_minh_city",
+    "type": "Hotel",
+    "name": "Premium District 1 Hotel",
+    "city": "Ho Chi Minh City",
+    "description": "Premium District 1 Hotel is a premium accommodation option in Ho Chi Minh City, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Premium District 1 Hotel in Ho Chi Minh City for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "hotel_10_ho_chi_minh_city",
+    "type": "Hotel",
+    "name": "Saigon Sunset Resort",
+    "city": "Ho Chi Minh City",
+    "description": "Saigon Sunset Resort is a premium accommodation option in Ho Chi Minh City, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Saigon Sunset Resort in Ho Chi Minh City for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "activity_1_ho_chi_minh_city",
+    "type": "Activity",
+    "name": "War Remnants Museum Tour",
+    "city": "Ho Chi Minh City",
+    "description": "War Remnants Museum Tour is a must-do experience in Ho Chi Minh City, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience War Remnants Museum Tour in Ho Chi Minh City for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "activity_2_ho_chi_minh_city",
+    "type": "Activity",
+    "name": "Ben Thanh Market Shopping Experience",
+    "city": "Ho Chi Minh City",
+    "description": "Ben Thanh Market Shopping Experience is a must-do experience in Ho Chi Minh City, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Ben Thanh Market Shopping Experience in Ho Chi Minh City for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "activity_3_ho_chi_minh_city",
+    "type": "Activity",
+    "name": "Saigon River Sunset Cruise",
+    "city": "Ho Chi Minh City",
+    "description": "Saigon River Sunset Cruise is a must-do experience in Ho Chi Minh City, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Saigon River Sunset Cruise in Ho Chi Minh City for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "activity_4_ho_chi_minh_city",
+    "type": "Activity",
+    "name": "Cu Chi Tunnels Adventure",
+    "city": "Ho Chi Minh City",
+    "description": "Cu Chi Tunnels Adventure is a must-do experience in Ho Chi Minh City, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Cu Chi Tunnels Adventure in Ho Chi Minh City for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "activity_5_ho_chi_minh_city",
+    "type": "Activity",
+    "name": "Bitexco Tower Observation Deck",
+    "city": "Ho Chi Minh City",
+    "description": "Bitexco Tower Observation Deck is a must-do experience in Ho Chi Minh City, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Bitexco Tower Observation Deck in Ho Chi Minh City for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "activity_6_ho_chi_minh_city",
+    "type": "Activity",
+    "name": "Traditional Water Puppet Show",
+    "city": "Ho Chi Minh City",
+    "description": "Traditional Water Puppet Show is a must-do experience in Ho Chi Minh City, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Traditional Water Puppet Show in Ho Chi Minh City for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "activity_7_ho_chi_minh_city",
+    "type": "Activity",
+    "name": "Food Tour & Street Eating",
+    "city": "Ho Chi Minh City",
+    "description": "Food Tour & Street Eating is a must-do experience in Ho Chi Minh City, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Food Tour & Street Eating in Ho Chi Minh City for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "activity_8_ho_chi_minh_city",
+    "type": "Activity",
+    "name": "Art Gallery & Museum Hopping",
+    "city": "Ho Chi Minh City",
+    "description": "Art Gallery & Museum Hopping is a must-do experience in Ho Chi Minh City, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Art Gallery & Museum Hopping in Ho Chi Minh City for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "activity_9_ho_chi_minh_city",
+    "type": "Activity",
+    "name": "Motorbike City Tour",
+    "city": "Ho Chi Minh City",
+    "description": "Motorbike City Tour is a must-do experience in Ho Chi Minh City, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Motorbike City Tour in Ho Chi Minh City for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "activity_10_ho_chi_minh_city",
+    "type": "Activity",
+    "name": "Evening Cafe Culture Experience",
+    "city": "Ho Chi Minh City",
+    "description": "Evening Cafe Culture Experience is a must-do experience in Ho Chi Minh City, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Evening Cafe Culture Experience in Ho Chi Minh City for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_ho_chi_minh"
+      }
+    ]
+  },
+  {
+    "id": "city_nha_trang",
+    "type": "City",
+    "name": "Nha Trang",
+    "region": "Southern Vietnam",
+    "description": "Nha Trang is located in Southern Vietnam. It’s known for its diving, resort, beach experiences, combining local culture, food, and history. Travelers often visit for authentic Vietnamese experiences, from exploring markets and temples to trying street food and scenic excursions.",
+    "best_time_to_visit": "Year-round",
+    "tags": [
+      "diving",
+      "resort",
+      "beach"
+    ],
+    "semantic_text": "Nha Trang offers a mix of diving, resort, beach attractions and is a must-visit for those seeking immersive travel experiences in Vietnam.",
+    "connections": [
+      {
+        "relation": "Connected_To",
+        "target": "city_sapa"
+      },
+      {
+        "relation": "Connected_To",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_1_nha_trang",
+    "type": "Attraction",
+    "name": "Vinpearl Diving Club",
+    "city": "Nha Trang",
+    "description": "Large diving site on Hon Tre Island covering 36,000 square meters offering scuba diving, kayaking, and water sports",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "Vinpearl Diving Club in Nha Trang: Large diving site on Hon Tre Island covering 36,000 square meters offering scuba diving, kayaking, a...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_2_nha_trang",
+    "type": "Attraction",
+    "name": "Hon Mot Island",
+    "city": "Nha Trang",
+    "description": "Famous scuba diving area renowned for vibrant coral reefs home to colorful marine species",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Hon Mot Island in Nha Trang: Famous scuba diving area renowned for vibrant coral reefs home to colorful marine species...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_3_nha_trang",
+    "type": "Attraction",
+    "name": "Monkey Island",
+    "city": "Nha Trang",
+    "description": "Island featuring rare fishes, mesmerizing coral reefs, pristine rocky beaches, and clear blue waters",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "Monkey Island in Nha Trang: Island featuring rare fishes, mesmerizing coral reefs, pristine rocky beaches, and clear blue waters...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_4_nha_trang",
+    "type": "Attraction",
+    "name": "Hon Mun Island",
+    "city": "Nha Trang",
+    "description": "One of the most attractive diving sites allowing exploration of 20-meter depths with stunning underwater terrain",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Hon Mun Island in Nha Trang: One of the most attractive diving sites allowing exploration of 20-meter depths with stunning underw...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_5_nha_trang",
+    "type": "Attraction",
+    "name": "Rom Island",
+    "city": "Nha Trang",
+    "description": "Well-maintained diving spot with thriving fish populations, coral recovery, high rock walls, and sea caves",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Rom Island in Nha Trang: Well-maintained diving spot with thriving fish populations, coral recovery, high rock walls, and sea...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_6_nha_trang",
+    "type": "Attraction",
+    "name": "Doc Let Beach",
+    "city": "Nha Trang",
+    "description": "Beautiful beach offering snorkeling, paragliding, and coral exploration activities",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "Doc Let Beach in Nha Trang: Beautiful beach offering snorkeling, paragliding, and coral exploration activities...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_7_nha_trang",
+    "type": "Attraction",
+    "name": "Nha Trang Beach",
+    "city": "Nha Trang",
+    "description": "The city's main beach offering swimming, water sports, and beautiful coastal scenery",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "Nha Trang Beach in Nha Trang: The city's main beach offering swimming, water sports, and beautiful coastal scenery...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_8_nha_trang",
+    "type": "Attraction",
+    "name": "VinWonders Nha Trang",
+    "city": "Nha Trang",
+    "description": "Modern amusement park on Hon Tre Island featuring Adventure Land, Sea World, Fairy Land, and Water World",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "VinWonders Nha Trang in Nha Trang: Modern amusement park on Hon Tre Island featuring Adventure Land, Sea World, Fairy Land, and Water W...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_9_nha_trang",
+    "type": "Attraction",
+    "name": "Nha Trang Cathedral",
+    "city": "Nha Trang",
+    "description": "Historic church with French colonial architecture standing majestically in the city center",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Nha Trang Cathedral in Nha Trang: Historic church with French colonial architecture standing majestically in the city center...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_10_nha_trang",
+    "type": "Attraction",
+    "name": "Cau Da Port",
+    "city": "Nha Trang",
+    "description": "Scenic fishing port offering coastal views and seafood dining experiences",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Cau Da Port in Nha Trang: Scenic fishing port offering coastal views and seafood dining experiences...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_1_nha_trang",
+    "type": "Hotel",
+    "name": "Vinpearl Luxury Resort",
+    "city": "Nha Trang",
+    "description": "Vinpearl Luxury Resort is a premium accommodation option in Nha Trang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Vinpearl Luxury Resort in Nha Trang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_2_nha_trang",
+    "type": "Hotel",
+    "name": "Coral Reef Beach Hotel",
+    "city": "Nha Trang",
+    "description": "Coral Reef Beach Hotel is a premium accommodation option in Nha Trang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Coral Reef Beach Hotel in Nha Trang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_3_nha_trang",
+    "type": "Hotel",
+    "name": "Diamond Bay Resort",
+    "city": "Nha Trang",
+    "description": "Diamond Bay Resort is a premium accommodation option in Nha Trang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Diamond Bay Resort in Nha Trang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_4_nha_trang",
+    "type": "Hotel",
+    "name": "Coastal Paradise Inn",
+    "city": "Nha Trang",
+    "description": "Coastal Paradise Inn is a premium accommodation option in Nha Trang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Coastal Paradise Inn in Nha Trang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_5_nha_trang",
+    "type": "Hotel",
+    "name": "Island View Hotel",
+    "city": "Nha Trang",
+    "description": "Island View Hotel is a premium accommodation option in Nha Trang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Island View Hotel in Nha Trang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_6_nha_trang",
+    "type": "Hotel",
+    "name": "Water Sports Resort",
+    "city": "Nha Trang",
+    "description": "Water Sports Resort is a premium accommodation option in Nha Trang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Water Sports Resort in Nha Trang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_7_nha_trang",
+    "type": "Hotel",
+    "name": "Oceanfront Boutique",
+    "city": "Nha Trang",
+    "description": "Oceanfront Boutique is a premium accommodation option in Nha Trang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Oceanfront Boutique in Nha Trang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_8_nha_trang",
+    "type": "Hotel",
+    "name": "Adventure Bay Hotel",
+    "city": "Nha Trang",
+    "description": "Adventure Bay Hotel is a premium accommodation option in Nha Trang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Adventure Bay Hotel in Nha Trang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_9_nha_trang",
+    "type": "Hotel",
+    "name": "Marine Life Resort",
+    "city": "Nha Trang",
+    "description": "Marine Life Resort is a premium accommodation option in Nha Trang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Marine Life Resort in Nha Trang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_10_nha_trang",
+    "type": "Hotel",
+    "name": "Sunset Beach Inn",
+    "city": "Nha Trang",
+    "description": "Sunset Beach Inn is a premium accommodation option in Nha Trang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Sunset Beach Inn in Nha Trang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "activity_1_nha_trang",
+    "type": "Activity",
+    "name": "Scuba Diving at Coral Reef",
+    "city": "Nha Trang",
+    "description": "Scuba Diving at Coral Reef is a must-do experience in Nha Trang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Scuba Diving at Coral Reef in Nha Trang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "activity_2_nha_trang",
+    "type": "Activity",
+    "name": "Snorkeling Around Islands",
+    "city": "Nha Trang",
+    "description": "Snorkeling Around Islands is a must-do experience in Nha Trang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Snorkeling Around Islands in Nha Trang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "activity_3_nha_trang",
+    "type": "Activity",
+    "name": "Diving at Mun Island",
+    "city": "Nha Trang",
+    "description": "Diving at Mun Island is a must-do experience in Nha Trang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Diving at Mun Island in Nha Trang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "activity_4_nha_trang",
+    "type": "Activity",
+    "name": "Beach Swimming & Sunbathing",
+    "city": "Nha Trang",
+    "description": "Beach Swimming & Sunbathing is a must-do experience in Nha Trang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Beach Swimming & Sunbathing in Nha Trang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "activity_5_nha_trang",
+    "type": "Activity",
+    "name": "Water Sports Adventure",
+    "city": "Nha Trang",
+    "description": "Water Sports Adventure is a must-do experience in Nha Trang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Water Sports Adventure in Nha Trang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "activity_6_nha_trang",
+    "type": "Activity",
+    "name": "Squid Fishing Excursion",
+    "city": "Nha Trang",
+    "description": "Squid Fishing Excursion is a must-do experience in Nha Trang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Squid Fishing Excursion in Nha Trang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "activity_7_nha_trang",
+    "type": "Activity",
+    "name": "Island Hopping Tour",
+    "city": "Nha Trang",
+    "description": "Island Hopping Tour is a must-do experience in Nha Trang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Island Hopping Tour in Nha Trang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "activity_8_nha_trang",
+    "type": "Activity",
+    "name": "Underwater Photography",
+    "city": "Nha Trang",
+    "description": "Underwater Photography is a must-do experience in Nha Trang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Underwater Photography in Nha Trang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "activity_9_nha_trang",
+    "type": "Activity",
+    "name": "Seafood Dining Experience",
+    "city": "Nha Trang",
+    "description": "Seafood Dining Experience is a must-do experience in Nha Trang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Seafood Dining Experience in Nha Trang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "activity_10_nha_trang",
+    "type": "Activity",
+    "name": "Sunset Beach Party",
+    "city": "Nha Trang",
+    "description": "Sunset Beach Party is a must-do experience in Nha Trang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Sunset Beach Party in Nha Trang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_nha_trang"
+      }
+    ]
+  },
+  {
+    "id": "city_da_lat",
+    "type": "City",
+    "name": "Da Lat",
+    "region": "Southern Vietnam",
+    "description": "Da Lat is located in Southern Vietnam. It’s known for its mountain, romantic, flowers experiences, combining local culture, food, and history. Travelers often visit for authentic Vietnamese experiences, from exploring markets and temples to trying street food and scenic excursions.",
+    "best_time_to_visit": "February to May",
+    "tags": [
+      "mountain",
+      "romantic",
+      "flowers"
+    ],
+    "semantic_text": "Da Lat offers a mix of mountain, romantic, flowers attractions and is a must-visit for those seeking immersive travel experiences in Vietnam.",
+    "connections": [
+      {
+        "relation": "Connected_To",
+        "target": "city_mekong"
+      },
+      {
+        "relation": "Connected_To",
+        "target": "city_ha_long"
+      }
+    ]
+  },
+  {
+    "id": "attraction_1_da_lat",
+    "type": "Attraction",
+    "name": "Crazy House",
+    "city": "Da Lat",
+    "description": "Iconic architectural marvel blending whimsy with surreal design, a unique mansion offering adventurous exploration",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Crazy House in Da Lat: Iconic architectural marvel blending whimsy with surreal design, a unique mansion offering adventuro...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "attraction_2_da_lat",
+    "type": "Attraction",
+    "name": "Xuan Huong Lake",
+    "city": "Da Lat",
+    "description": "Scenic lake surrounded by flower gardens and peaceful walking paths, heart of Da Lat's romantic atmosphere",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Xuan Huong Lake in Da Lat: Scenic lake surrounded by flower gardens and peaceful walking paths, heart of Da Lat's romantic atmo...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "attraction_3_da_lat",
+    "type": "Attraction",
+    "name": "Datanla Waterfall",
+    "city": "Da Lat",
+    "description": "Popular waterfall destination for adventure seekers offering canyoning, rappelling, and hiking through scenic landscapes",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Datanla Waterfall in Da Lat: Popular waterfall destination for adventure seekers offering canyoning, rappelling, and hiking throu...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "attraction_4_da_lat",
+    "type": "Attraction",
+    "name": "Langbiang Mountain",
+    "city": "Da Lat",
+    "description": "Highest peak in Da Lat offering panoramic views, hiking trails, and sunrise trekking experiences",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Langbiang Mountain in Da Lat: Highest peak in Da Lat offering panoramic views, hiking trails, and sunrise trekking experiences...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "attraction_5_da_lat",
+    "type": "Attraction",
+    "name": "Tuyen Lam Lake",
+    "city": "Da Lat",
+    "description": "Beautiful alpine lake surrounded by pine forests, perfect for kayaking, stand-up paddleboarding, and peaceful hikes",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Tuyen Lam Lake in Da Lat: Beautiful alpine lake surrounded by pine forests, perfect for kayaking, stand-up paddleboarding, and...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "attraction_6_da_lat",
+    "type": "Attraction",
+    "name": "Da Lat Flower Gardens",
+    "city": "Da Lat",
+    "description": "Colorful flower gardens showcasing diverse flora from around the world, perfect for photography",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Da Lat Flower Gardens in Da Lat: Colorful flower gardens showcasing diverse flora from around the world, perfect for photography...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "attraction_7_da_lat",
+    "type": "Attraction",
+    "name": "Linh Quy Phap An Pagoda",
+    "city": "Da Lat",
+    "description": "Serene Buddhist temple nestled in nature offering spiritual retreats and peaceful meditation spaces",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Linh Quy Phap An Pagoda in Da Lat: Serene Buddhist temple nestled in nature offering spiritual retreats and peaceful meditation spaces...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "attraction_8_da_lat",
+    "type": "Attraction",
+    "name": "Elephant Falls",
+    "city": "Da Lat",
+    "description": "Scenic waterfall accessible by hiking, featuring impressive cascading water and jungle landscape",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Elephant Falls in Da Lat: Scenic waterfall accessible by hiking, featuring impressive cascading water and jungle landscape...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "attraction_9_da_lat",
+    "type": "Attraction",
+    "name": "Pongour Waterfall",
+    "city": "Da Lat",
+    "description": "Majestic multi-tiered waterfall offering swimming opportunities and scenic natural beauty",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Pongour Waterfall in Da Lat: Majestic multi-tiered waterfall offering swimming opportunities and scenic natural beauty...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "attraction_10_da_lat",
+    "type": "Attraction",
+    "name": "Da Lat Night Market",
+    "city": "Da Lat",
+    "description": "Vibrant evening market offering local specialties like banh can, avocado ice cream, and authentic Vietnamese cuisine",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Da Lat Night Market in Da Lat: Vibrant evening market offering local specialties like banh can, avocado ice cream, and authentic Vi...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "hotel_1_da_lat",
+    "type": "Hotel",
+    "name": "Romantic Da Lat Resort",
+    "city": "Da Lat",
+    "description": "Romantic Da Lat Resort is a premium accommodation option in Da Lat, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Romantic Da Lat Resort in Da Lat for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "hotel_2_da_lat",
+    "type": "Hotel",
+    "name": "Mountain Retreat Hotel",
+    "city": "Da Lat",
+    "description": "Mountain Retreat Hotel is a premium accommodation option in Da Lat, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Mountain Retreat Hotel in Da Lat for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "hotel_3_da_lat",
+    "type": "Hotel",
+    "name": "Flower Garden Inn",
+    "city": "Da Lat",
+    "description": "Flower Garden Inn is a premium accommodation option in Da Lat, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Flower Garden Inn in Da Lat for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "hotel_4_da_lat",
+    "type": "Hotel",
+    "name": "Alpine Sanctuary Hotel",
+    "city": "Da Lat",
+    "description": "Alpine Sanctuary Hotel is a premium accommodation option in Da Lat, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Alpine Sanctuary Hotel in Da Lat for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "hotel_5_da_lat",
+    "type": "Hotel",
+    "name": "Lake View Boutique",
+    "city": "Da Lat",
+    "description": "Lake View Boutique is a premium accommodation option in Da Lat, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Lake View Boutique in Da Lat for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "hotel_6_da_lat",
+    "type": "Hotel",
+    "name": "Adventure Base Camp",
+    "city": "Da Lat",
+    "description": "Adventure Base Camp is a premium accommodation option in Da Lat, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Adventure Base Camp in Da Lat for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "hotel_7_da_lat",
+    "type": "Hotel",
+    "name": "Peaceful Mountain Lodge",
+    "city": "Da Lat",
+    "description": "Peaceful Mountain Lodge is a premium accommodation option in Da Lat, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Peaceful Mountain Lodge in Da Lat for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "hotel_8_da_lat",
+    "type": "Hotel",
+    "name": "Romantic Evening Hotel",
+    "city": "Da Lat",
+    "description": "Romantic Evening Hotel is a premium accommodation option in Da Lat, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Romantic Evening Hotel in Da Lat for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "hotel_9_da_lat",
+    "type": "Hotel",
+    "name": "Forest Escape Resort",
+    "city": "Da Lat",
+    "description": "Forest Escape Resort is a premium accommodation option in Da Lat, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Forest Escape Resort in Da Lat for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "hotel_10_da_lat",
+    "type": "Hotel",
+    "name": "Misty Morning Inn",
+    "city": "Da Lat",
+    "description": "Misty Morning Inn is a premium accommodation option in Da Lat, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Misty Morning Inn in Da Lat for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "activity_1_da_lat",
+    "type": "Activity",
+    "name": "Crazy House Exploration",
+    "city": "Da Lat",
+    "description": "Crazy House Exploration is a must-do experience in Da Lat, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Crazy House Exploration in Da Lat for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "activity_2_da_lat",
+    "type": "Activity",
+    "name": "Datanla Waterfall Canyoning",
+    "city": "Da Lat",
+    "description": "Datanla Waterfall Canyoning is a must-do experience in Da Lat, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Datanla Waterfall Canyoning in Da Lat for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "activity_3_da_lat",
+    "type": "Activity",
+    "name": "Langbiang Mountain Trekking",
+    "city": "Da Lat",
+    "description": "Langbiang Mountain Trekking is a must-do experience in Da Lat, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Langbiang Mountain Trekking in Da Lat for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "activity_4_da_lat",
+    "type": "Activity",
+    "name": "Lake Kayaking & Paddleboarding",
+    "city": "Da Lat",
+    "description": "Lake Kayaking & Paddleboarding is a must-do experience in Da Lat, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Lake Kayaking & Paddleboarding in Da Lat for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "activity_5_da_lat",
+    "type": "Activity",
+    "name": "Sunrise Cloud Hunting",
+    "city": "Da Lat",
+    "description": "Sunrise Cloud Hunting is a must-do experience in Da Lat, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Sunrise Cloud Hunting in Da Lat for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "activity_6_da_lat",
+    "type": "Activity",
+    "name": "Coffee Farm Tour & Tasting",
+    "city": "Da Lat",
+    "description": "Coffee Farm Tour & Tasting is a must-do experience in Da Lat, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Coffee Farm Tour & Tasting in Da Lat for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "activity_7_da_lat",
+    "type": "Activity",
+    "name": "Easy Rider Motorbike Tour",
+    "city": "Da Lat",
+    "description": "Easy Rider Motorbike Tour is a must-do experience in Da Lat, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Easy Rider Motorbike Tour in Da Lat for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "activity_8_da_lat",
+    "type": "Activity",
+    "name": "Flower Garden Photography",
+    "city": "Da Lat",
+    "description": "Flower Garden Photography is a must-do experience in Da Lat, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Flower Garden Photography in Da Lat for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "activity_9_da_lat",
+    "type": "Activity",
+    "name": "Traditional Street Food Tour",
+    "city": "Da Lat",
+    "description": "Traditional Street Food Tour is a must-do experience in Da Lat, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Traditional Street Food Tour in Da Lat for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "activity_10_da_lat",
+    "type": "Activity",
+    "name": "Forest Hiking Adventure",
+    "city": "Da Lat",
+    "description": "Forest Hiking Adventure is a must-do experience in Da Lat, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Forest Hiking Adventure in Da Lat for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_lat"
+      }
+    ]
+  },
+  {
+    "id": "city_hue",
+    "type": "City",
+    "name": "Hue",
+    "region": "Central Vietnam",
+    "description": "Hue is located in Central Vietnam. It’s known for its imperial, history, architecture experiences, combining local culture, food, and history. Travelers often visit for authentic Vietnamese experiences, from exploring markets and temples to trying street food and scenic excursions.",
+    "best_time_to_visit": "October to April",
+    "tags": [
+      "imperial",
+      "history",
+      "architecture"
+    ],
+    "semantic_text": "Hue offers a mix of imperial, history, architecture attractions and is a must-visit for those seeking immersive travel experiences in Vietnam.",
+    "connections": [
+      {
+        "relation": "Connected_To",
+        "target": "city_sapa"
+      },
+      {
+        "relation": "Connected_To",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "attraction_1_hue",
+    "type": "Attraction",
+    "name": "Thien Mu Pagoda",
+    "city": "Hue",
+    "description": "A spiritual icon built in 1601 with the stunning 21m-high octagonal Phuoc Duyen tower overlooking the Perfume River",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Thien Mu Pagoda in Hue: A spiritual icon built in 1601 with the stunning 21m-high octagonal Phuoc Duyen tower overlooking th...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "attraction_2_hue",
+    "type": "Attraction",
+    "name": "Hue Imperial Citadel",
+    "city": "Hue",
+    "description": "UNESCO World Heritage site showcasing over 1,000 years of Vietnamese history through archaeological remains and imperial architecture",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Hue Imperial Citadel in Hue: UNESCO World Heritage site showcasing over 1,000 years of Vietnamese history through archaeological ...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "attraction_3_hue",
+    "type": "Attraction",
+    "name": "Tu Duc Royal Tomb",
+    "city": "Hue",
+    "description": "The most impressive royal mausoleum completed in 1867, designed by Emperor Tu Duc himself featuring magnificent traditional architecture",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Tu Duc Royal Tomb in Hue: The most impressive royal mausoleum completed in 1867, designed by Emperor Tu Duc himself featuring ...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "attraction_4_hue",
+    "type": "Attraction",
+    "name": "Minh Mang Tomb",
+    "city": "Hue",
+    "description": "Another UNESCO-recognized royal tomb showcasing masterpieces of traditional Vietnamese architecture",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Minh Mang Tomb in Hue: Another UNESCO-recognized royal tomb showcasing masterpieces of traditional Vietnamese architecture...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "attraction_5_hue",
+    "type": "Attraction",
+    "name": "Khai Dinh Tomb",
+    "city": "Hue",
+    "description": "Eclectic royal tomb blending Vietnamese and French architectural styles",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Khai Dinh Tomb in Hue: Eclectic royal tomb blending Vietnamese and French architectural styles...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "attraction_6_hue",
+    "type": "Attraction",
+    "name": "Bach Ma Temple",
+    "city": "Hue",
+    "description": "The city's oldest temple built in the 11th century honoring a mythical white horse",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Bach Ma Temple in Hue: The city's oldest temple built in the 11th century honoring a mythical white horse...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "attraction_7_hue",
+    "type": "Attraction",
+    "name": "Perfume River Cruise",
+    "city": "Hue",
+    "description": "Scenic boat journey along the iconic river passing royal tombs and temples",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Perfume River Cruise in Hue: Scenic boat journey along the iconic river passing royal tombs and temples...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "attraction_8_hue",
+    "type": "Attraction",
+    "name": "Trai Nhan Market",
+    "city": "Hue",
+    "description": "Traditional market offering local products, crafts, and authentic Vietnamese street food",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Trai Nhan Market in Hue: Traditional market offering local products, crafts, and authentic Vietnamese street food...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "attraction_9_hue",
+    "type": "Attraction",
+    "name": "Dong Ba Market",
+    "city": "Hue",
+    "description": "Historic riverside market showcasing local produce, handicrafts, and cultural products",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Dong Ba Market in Hue: Historic riverside market showcasing local produce, handicrafts, and cultural products...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "attraction_10_hue",
+    "type": "Attraction",
+    "name": "Lang Co Beach",
+    "city": "Hue",
+    "description": "Pristine beach near Hue offering swimming, relaxation, and water activities",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "Lang Co Beach in Hue: Pristine beach near Hue offering swimming, relaxation, and water activities...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "hotel_1_hue",
+    "type": "Hotel",
+    "name": "Perfume River Palace Hotel",
+    "city": "Hue",
+    "description": "Perfume River Palace Hotel is a premium accommodation option in Hue, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Perfume River Palace Hotel in Hue for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "hotel_2_hue",
+    "type": "Hotel",
+    "name": "Imperial Heritage Hotel",
+    "city": "Hue",
+    "description": "Imperial Heritage Hotel is a premium accommodation option in Hue, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Imperial Heritage Hotel in Hue for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "hotel_3_hue",
+    "type": "Hotel",
+    "name": "Historic Citadel Resort",
+    "city": "Hue",
+    "description": "Historic Citadel Resort is a premium accommodation option in Hue, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Historic Citadel Resort in Hue for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "hotel_4_hue",
+    "type": "Hotel",
+    "name": "Royal Boutique Inn",
+    "city": "Hue",
+    "description": "Royal Boutique Inn is a premium accommodation option in Hue, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Royal Boutique Inn in Hue for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "hotel_5_hue",
+    "type": "Hotel",
+    "name": "Riverside Sanctuary Hotel",
+    "city": "Hue",
+    "description": "Riverside Sanctuary Hotel is a premium accommodation option in Hue, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Riverside Sanctuary Hotel in Hue for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "hotel_6_hue",
+    "type": "Hotel",
+    "name": "Elegant Dynasty Hotel",
+    "city": "Hue",
+    "description": "Elegant Dynasty Hotel is a premium accommodation option in Hue, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Elegant Dynasty Hotel in Hue for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "hotel_7_hue",
+    "type": "Hotel",
+    "name": "Cultural Heritage Hotel",
+    "city": "Hue",
+    "description": "Cultural Heritage Hotel is a premium accommodation option in Hue, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Cultural Heritage Hotel in Hue for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "hotel_8_hue",
+    "type": "Hotel",
+    "name": "Peaceful Tradition Inn",
+    "city": "Hue",
+    "description": "Peaceful Tradition Inn is a premium accommodation option in Hue, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Peaceful Tradition Inn in Hue for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "hotel_9_hue",
+    "type": "Hotel",
+    "name": "Traditional Vietnamese Resort",
+    "city": "Hue",
+    "description": "Traditional Vietnamese Resort is a premium accommodation option in Hue, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Traditional Vietnamese Resort in Hue for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "hotel_10_hue",
+    "type": "Hotel",
+    "name": "Ancient Capital Hotel",
+    "city": "Hue",
+    "description": "Ancient Capital Hotel is a premium accommodation option in Hue, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Ancient Capital Hotel in Hue for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "activity_1_hue",
+    "type": "Activity",
+    "name": "Thien Mu Pagoda Visit",
+    "city": "Hue",
+    "description": "Thien Mu Pagoda Visit is a must-do experience in Hue, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Thien Mu Pagoda Visit in Hue for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "activity_2_hue",
+    "type": "Activity",
+    "name": "Imperial Citadel Tour",
+    "city": "Hue",
+    "description": "Imperial Citadel Tour is a must-do experience in Hue, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Imperial Citadel Tour in Hue for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "activity_3_hue",
+    "type": "Activity",
+    "name": "Royal Tomb Exploration",
+    "city": "Hue",
+    "description": "Royal Tomb Exploration is a must-do experience in Hue, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Royal Tomb Exploration in Hue for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "activity_4_hue",
+    "type": "Activity",
+    "name": "Perfume River Cruise",
+    "city": "Hue",
+    "description": "Perfume River Cruise is a must-do experience in Hue, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Perfume River Cruise in Hue for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "activity_5_hue",
+    "type": "Activity",
+    "name": "Traditional Cooking Class",
+    "city": "Hue",
+    "description": "Traditional Cooking Class is a must-do experience in Hue, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Traditional Cooking Class in Hue for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "activity_6_hue",
+    "type": "Activity",
+    "name": "Market Walking Tour",
+    "city": "Hue",
+    "description": "Market Walking Tour is a must-do experience in Hue, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Market Walking Tour in Hue for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "activity_7_hue",
+    "type": "Activity",
+    "name": "Bicycle Tour of Countryside",
+    "city": "Hue",
+    "description": "Bicycle Tour of Countryside is a must-do experience in Hue, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Bicycle Tour of Countryside in Hue for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "activity_8_hue",
+    "type": "Activity",
+    "name": "Temple Photography Tour",
+    "city": "Hue",
+    "description": "Temple Photography Tour is a must-do experience in Hue, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Temple Photography Tour in Hue for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "activity_9_hue",
+    "type": "Activity",
+    "name": "Evening Lantern Performance",
+    "city": "Hue",
+    "description": "Evening Lantern Performance is a must-do experience in Hue, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Evening Lantern Performance in Hue for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "activity_10_hue",
+    "type": "Activity",
+    "name": "Street Food Discovery Tour",
+    "city": "Hue",
+    "description": "Street Food Discovery Tour is a must-do experience in Hue, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Street Food Discovery Tour in Hue for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "city_sapa",
+    "type": "City",
+    "name": "Sapa",
+    "region": "Northern Vietnam",
+    "description": "Sapa is located in Northern Vietnam. It’s known for its mountain, trekking, ethnic experiences, combining local culture, food, and history. Travelers often visit for authentic Vietnamese experiences, from exploring markets and temples to trying street food and scenic excursions.",
+    "best_time_to_visit": "October to April",
+    "tags": [
+      "mountain",
+      "trekking",
+      "ethnic"
+    ],
+    "semantic_text": "Sapa offers a mix of mountain, trekking, ethnic attractions and is a must-visit for those seeking immersive travel experiences in Vietnam.",
+    "connections": [
+      {
+        "relation": "Connected_To",
+        "target": "city_da_nang"
+      },
+      {
+        "relation": "Connected_To",
+        "target": "city_hue"
+      }
+    ]
+  },
+  {
+    "id": "attraction_1_sapa",
+    "type": "Attraction",
+    "name": "Fansipan Mountain",
+    "city": "Sapa",
+    "description": "The 'Roof of Indochina' at 3,143 meters, Vietnam's highest peak offering challenging trekking and breathtaking panoramic views",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Fansipan Mountain in Sapa: The 'Roof of Indochina' at 3,143 meters, Vietnam's highest peak offering challenging trekking and br...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "attraction_2_sapa",
+    "type": "Attraction",
+    "name": "Sapa Old Town",
+    "city": "Sapa",
+    "description": "Charming hillside town with French colonial architecture, markets, and ethnic minority cultural centers",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Sapa Old Town in Sapa: Charming hillside town with French colonial architecture, markets, and ethnic minority cultural cent...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "attraction_3_sapa",
+    "type": "Attraction",
+    "name": "Bac Ha Market",
+    "city": "Sapa",
+    "description": "Colorful Sunday market showcasing Hmong and minority group cultures with traditional textiles and handicrafts",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Bac Ha Market in Sapa: Colorful Sunday market showcasing Hmong and minority group cultures with traditional textiles and ha...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "attraction_4_sapa",
+    "type": "Attraction",
+    "name": "Sin Chai Village",
+    "city": "Sapa",
+    "description": "Black Hmong ethnic village offering authentic cultural experiences and traditional homestays",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Sin Chai Village in Sapa: Black Hmong ethnic village offering authentic cultural experiences and traditional homestays...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "attraction_5_sapa",
+    "type": "Attraction",
+    "name": "Silver Waterfall",
+    "city": "Sapa",
+    "description": "Beautiful two-tier waterfall accessible by hiking through lush vegetation",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Silver Waterfall in Sapa: Beautiful two-tier waterfall accessible by hiking through lush vegetation...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "attraction_6_sapa",
+    "type": "Attraction",
+    "name": "Sapa Rice Terraces",
+    "city": "Sapa",
+    "description": "Stunning terraced rice fields cascading down hillsides, especially beautiful during harvest season",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Sapa Rice Terraces in Sapa: Stunning terraced rice fields cascading down hillsides, especially beautiful during harvest season...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "attraction_7_sapa",
+    "type": "Attraction",
+    "name": "Ham Rong Mountain",
+    "city": "Sapa",
+    "description": "Scenic mountain offering cable car rides and hiking trails with panoramic valley views",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Ham Rong Mountain in Sapa: Scenic mountain offering cable car rides and hiking trails with panoramic valley views...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "attraction_8_sapa",
+    "type": "Attraction",
+    "name": "Fansipan Cable Car",
+    "city": "Sapa",
+    "description": "Modern cable car offering scenic transportation up Fansipan Mountain with spectacular views",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Fansipan Cable Car in Sapa: Modern cable car offering scenic transportation up Fansipan Mountain with spectacular views...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "attraction_9_sapa",
+    "type": "Attraction",
+    "name": "Sapa Stone Church",
+    "city": "Sapa",
+    "description": "Historic French colonial church standing as a cultural landmark in the town center",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Sapa Stone Church in Sapa: Historic French colonial church standing as a cultural landmark in the town center...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "attraction_10_sapa",
+    "type": "Attraction",
+    "name": "Tram Ton Pass",
+    "city": "Sapa",
+    "description": "Mountain pass at 1,900 meters serving as gateway to Fansipan treks with stunning scenery",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Tram Ton Pass in Sapa: Mountain pass at 1,900 meters serving as gateway to Fansipan treks with stunning scenery...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "hotel_1_sapa",
+    "type": "Hotel",
+    "name": "Fansipan Mountain Resort",
+    "city": "Sapa",
+    "description": "Fansipan Mountain Resort is a premium accommodation option in Sapa, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Fansipan Mountain Resort in Sapa for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "hotel_2_sapa",
+    "type": "Hotel",
+    "name": "Sapa Heritage Hotel",
+    "city": "Sapa",
+    "description": "Sapa Heritage Hotel is a premium accommodation option in Sapa, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Sapa Heritage Hotel in Sapa for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "hotel_3_sapa",
+    "type": "Hotel",
+    "name": "Valley View Lodge",
+    "city": "Sapa",
+    "description": "Valley View Lodge is a premium accommodation option in Sapa, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Valley View Lodge in Sapa for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "hotel_4_sapa",
+    "type": "Hotel",
+    "name": "Ethnic Homestay Experience",
+    "city": "Sapa",
+    "description": "Ethnic Homestay Experience is a premium accommodation option in Sapa, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Ethnic Homestay Experience in Sapa for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "hotel_5_sapa",
+    "type": "Hotel",
+    "name": "Mountain Escape Inn",
+    "city": "Sapa",
+    "description": "Mountain Escape Inn is a premium accommodation option in Sapa, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Mountain Escape Inn in Sapa for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "hotel_6_sapa",
+    "type": "Hotel",
+    "name": "Adventure Base Hotel",
+    "city": "Sapa",
+    "description": "Adventure Base Hotel is a premium accommodation option in Sapa, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Adventure Base Hotel in Sapa for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "hotel_7_sapa",
+    "type": "Hotel",
+    "name": "Misty Valley Resort",
+    "city": "Sapa",
+    "description": "Misty Valley Resort is a premium accommodation option in Sapa, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Misty Valley Resort in Sapa for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "hotel_8_sapa",
+    "type": "Hotel",
+    "name": "Tribal Culture Hotel",
+    "city": "Sapa",
+    "description": "Tribal Culture Hotel is a premium accommodation option in Sapa, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Tribal Culture Hotel in Sapa for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "hotel_9_sapa",
+    "type": "Hotel",
+    "name": "Highland Retreat Lodge",
+    "city": "Sapa",
+    "description": "Highland Retreat Lodge is a premium accommodation option in Sapa, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Highland Retreat Lodge in Sapa for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "hotel_10_sapa",
+    "type": "Hotel",
+    "name": "Scenic Peak Hotel",
+    "city": "Sapa",
+    "description": "Scenic Peak Hotel is a premium accommodation option in Sapa, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Scenic Peak Hotel in Sapa for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "activity_1_sapa",
+    "type": "Activity",
+    "name": "Fansipan Mountain Trekking",
+    "city": "Sapa",
+    "description": "Fansipan Mountain Trekking is a must-do experience in Sapa, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Fansipan Mountain Trekking in Sapa for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "activity_2_sapa",
+    "type": "Activity",
+    "name": "Cable Car Scenic Ride",
+    "city": "Sapa",
+    "description": "Cable Car Scenic Ride is a must-do experience in Sapa, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Cable Car Scenic Ride in Sapa for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "activity_3_sapa",
+    "type": "Activity",
+    "name": "Rice Terrace Hiking Tour",
+    "city": "Sapa",
+    "description": "Rice Terrace Hiking Tour is a must-do experience in Sapa, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Rice Terrace Hiking Tour in Sapa for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "activity_4_sapa",
+    "type": "Activity",
+    "name": "Ethnic Village Home Visit",
+    "city": "Sapa",
+    "description": "Ethnic Village Home Visit is a must-do experience in Sapa, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Ethnic Village Home Visit in Sapa for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "activity_5_sapa",
+    "type": "Activity",
+    "name": "Bac Ha Market Tour",
+    "city": "Sapa",
+    "description": "Bac Ha Market Tour is a must-do experience in Sapa, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Bac Ha Market Tour in Sapa for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "activity_6_sapa",
+    "type": "Activity",
+    "name": "Traditional Indigo Dye Workshop",
+    "city": "Sapa",
+    "description": "Traditional Indigo Dye Workshop is a must-do experience in Sapa, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Traditional Indigo Dye Workshop in Sapa for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "activity_7_sapa",
+    "type": "Activity",
+    "name": "Silver Waterfall Hike",
+    "city": "Sapa",
+    "description": "Silver Waterfall Hike is a must-do experience in Sapa, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Silver Waterfall Hike in Sapa for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "activity_8_sapa",
+    "type": "Activity",
+    "name": "Local Cuisine Cooking Class",
+    "city": "Sapa",
+    "description": "Local Cuisine Cooking Class is a must-do experience in Sapa, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Local Cuisine Cooking Class in Sapa for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "activity_9_sapa",
+    "type": "Activity",
+    "name": "Photography Trek",
+    "city": "Sapa",
+    "description": "Photography Trek is a must-do experience in Sapa, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Photography Trek in Sapa for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "activity_10_sapa",
+    "type": "Activity",
+    "name": "Sunrise Cloud Hunting",
+    "city": "Sapa",
+    "description": "Sunrise Cloud Hunting is a must-do experience in Sapa, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Sunrise Cloud Hunting in Sapa for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "city_da_nang",
+    "type": "City",
+    "name": "Da Nang",
+    "region": "Central Vietnam",
+    "description": "Da Nang is located in Central Vietnam. It’s known for its beach, modern, adventure experiences, combining local culture, food, and history. Travelers often visit for authentic Vietnamese experiences, from exploring markets and temples to trying street food and scenic excursions.",
+    "best_time_to_visit": "Year-round",
+    "tags": [
+      "beach",
+      "modern",
+      "adventure"
+    ],
+    "semantic_text": "Da Nang offers a mix of beach, modern, adventure attractions and is a must-visit for those seeking immersive travel experiences in Vietnam.",
+    "connections": [
+      {
+        "relation": "Connected_To",
+        "target": "city_hoi_an"
+      },
+      {
+        "relation": "Connected_To",
+        "target": "city_sapa"
+      }
+    ]
+  },
+  {
+    "id": "attraction_1_da_nang",
+    "type": "Attraction",
+    "name": "Linh Ung Pagoda",
+    "city": "Da Nang",
+    "description": "Famous Buddhist temple perched on mountainside featuring the 'Meeting Place of Heaven and Earth' with stunning coastal views",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Linh Ung Pagoda in Da Nang: Famous Buddhist temple perched on mountainside featuring the 'Meeting Place of Heaven and Earth' wit...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_2_da_nang",
+    "type": "Attraction",
+    "name": "Marble Mountains",
+    "city": "Da Nang",
+    "description": "Five limestone mountains featuring Buddhist caves, tunnels, and pagodas with panoramic Danang views",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Marble Mountains in Da Nang: Five limestone mountains featuring Buddhist caves, tunnels, and pagodas with panoramic Danang views...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_3_da_nang",
+    "type": "Attraction",
+    "name": "Dragon Bridge",
+    "city": "Da Nang",
+    "description": "Iconic modern bridge shaped like a dragon spanning the Han River, famous for nighttime illumination",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Dragon Bridge in Da Nang: Iconic modern bridge shaped like a dragon spanning the Han River, famous for nighttime illumination...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_4_da_nang",
+    "type": "Attraction",
+    "name": "Love Bridge",
+    "city": "Da Nang",
+    "description": "Famous yellow pedestrian bridge offering romantic views and popular photo opportunity",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Love Bridge in Da Nang: Famous yellow pedestrian bridge offering romantic views and popular photo opportunity...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_5_da_nang",
+    "type": "Attraction",
+    "name": "My Khe Beach",
+    "city": "Da Nang",
+    "description": "One of Asia's most beautiful beaches offering swimming, sunbathing, and water sports",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "My Khe Beach in Da Nang: One of Asia's most beautiful beaches offering swimming, sunbathing, and water sports...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_6_da_nang",
+    "type": "Attraction",
+    "name": "My Son Sanctuary",
+    "city": "Da Nang",
+    "description": "UNESCO World Heritage site featuring Champa Kingdom ruins with unique Hindu-influenced Vietnamese architecture",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "My Son Sanctuary in Da Nang: UNESCO World Heritage site featuring Champa Kingdom ruins with unique Hindu-influenced Vietnamese ar...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_7_da_nang",
+    "type": "Attraction",
+    "name": "Hoi An Ancient Town",
+    "city": "Da Nang",
+    "description": "UNESCO cultural heritage site near Da Nang accessible by day trip, famous for lantern-lit streets and historic architecture",
+    "tags": [
+      "heritage",
+      "culture",
+      "landmark"
+    ],
+    "semantic_text": "Hoi An Ancient Town in Da Nang: UNESCO cultural heritage site near Da Nang accessible by day trip, famous for lantern-lit streets an...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_8_da_nang",
+    "type": "Attraction",
+    "name": "Da Nang Museum",
+    "city": "Da Nang",
+    "description": "Modern museum showcasing regional history, culture, and contemporary Vietnamese art",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Da Nang Museum in Da Nang: Modern museum showcasing regional history, culture, and contemporary Vietnamese art...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_9_da_nang",
+    "type": "Attraction",
+    "name": "Tram Huong Beach",
+    "city": "Da Nang",
+    "description": "Scenic beach destination offering swimming and relaxation with beautiful coastal landscape",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "Tram Huong Beach in Da Nang: Scenic beach destination offering swimming and relaxation with beautiful coastal landscape...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_10_da_nang",
+    "type": "Attraction",
+    "name": "Son Tha Waterfall",
+    "city": "Da Nang",
+    "description": "Picturesque waterfall in jungle surroundings accessible by hiking through tropical vegetation",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Son Tha Waterfall in Da Nang: Picturesque waterfall in jungle surroundings accessible by hiking through tropical vegetation...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_1_da_nang",
+    "type": "Hotel",
+    "name": "Linh Ung Panoramic Resort",
+    "city": "Da Nang",
+    "description": "Linh Ung Panoramic Resort is a premium accommodation option in Da Nang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Linh Ung Panoramic Resort in Da Nang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_2_da_nang",
+    "type": "Hotel",
+    "name": "Marble Mountain Hotel",
+    "city": "Da Nang",
+    "description": "Marble Mountain Hotel is a premium accommodation option in Da Nang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Marble Mountain Hotel in Da Nang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_3_da_nang",
+    "type": "Hotel",
+    "name": "Dragon Bridge View Hotel",
+    "city": "Da Nang",
+    "description": "Dragon Bridge View Hotel is a premium accommodation option in Da Nang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Dragon Bridge View Hotel in Da Nang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_4_da_nang",
+    "type": "Hotel",
+    "name": "My Khe Beach Resort",
+    "city": "Da Nang",
+    "description": "My Khe Beach Resort is a premium accommodation option in Da Nang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at My Khe Beach Resort in Da Nang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_5_da_nang",
+    "type": "Hotel",
+    "name": "Modern Danang Inn",
+    "city": "Da Nang",
+    "description": "Modern Danang Inn is a premium accommodation option in Da Nang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Modern Danang Inn in Da Nang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_6_da_nang",
+    "type": "Hotel",
+    "name": "Coastal Paradise Hotel",
+    "city": "Da Nang",
+    "description": "Coastal Paradise Hotel is a premium accommodation option in Da Nang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Coastal Paradise Hotel in Da Nang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_7_da_nang",
+    "type": "Hotel",
+    "name": "Adventure Gateway Hotel",
+    "city": "Da Nang",
+    "description": "Adventure Gateway Hotel is a premium accommodation option in Da Nang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Adventure Gateway Hotel in Da Nang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_8_da_nang",
+    "type": "Hotel",
+    "name": "Bridge City Hotel",
+    "city": "Da Nang",
+    "description": "Bridge City Hotel is a premium accommodation option in Da Nang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Bridge City Hotel in Da Nang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_9_da_nang",
+    "type": "Hotel",
+    "name": "Beach Front Boutique",
+    "city": "Da Nang",
+    "description": "Beach Front Boutique is a premium accommodation option in Da Nang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Beach Front Boutique in Da Nang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "hotel_10_da_nang",
+    "type": "Hotel",
+    "name": "Contemporary Danang Resort",
+    "city": "Da Nang",
+    "description": "Contemporary Danang Resort is a premium accommodation option in Da Nang, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Contemporary Danang Resort in Da Nang for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "activity_1_da_nang",
+    "type": "Activity",
+    "name": "Marble Mountain Hiking",
+    "city": "Da Nang",
+    "description": "Marble Mountain Hiking is a must-do experience in Da Nang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Marble Mountain Hiking in Da Nang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "activity_2_da_nang",
+    "type": "Activity",
+    "name": "Linh Ung Pagoda Visit",
+    "city": "Da Nang",
+    "description": "Linh Ung Pagoda Visit is a must-do experience in Da Nang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Linh Ung Pagoda Visit in Da Nang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "activity_3_da_nang",
+    "type": "Activity",
+    "name": "My Khe Beach Swimming",
+    "city": "Da Nang",
+    "description": "My Khe Beach Swimming is a must-do experience in Da Nang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience My Khe Beach Swimming in Da Nang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "activity_4_da_nang",
+    "type": "Activity",
+    "name": "My Son Sanctuary Tour",
+    "city": "Da Nang",
+    "description": "My Son Sanctuary Tour is a must-do experience in Da Nang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience My Son Sanctuary Tour in Da Nang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "activity_5_da_nang",
+    "type": "Activity",
+    "name": "Dragon Bridge Sunset Photo",
+    "city": "Da Nang",
+    "description": "Dragon Bridge Sunset Photo is a must-do experience in Da Nang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Dragon Bridge Sunset Photo in Da Nang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "activity_6_da_nang",
+    "type": "Activity",
+    "name": "Love Bridge Romantic Walk",
+    "city": "Da Nang",
+    "description": "Love Bridge Romantic Walk is a must-do experience in Da Nang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Love Bridge Romantic Walk in Da Nang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "activity_7_da_nang",
+    "type": "Activity",
+    "name": "Traditional Cooking Class",
+    "city": "Da Nang",
+    "description": "Traditional Cooking Class is a must-do experience in Da Nang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Traditional Cooking Class in Da Nang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "activity_8_da_nang",
+    "type": "Activity",
+    "name": "Water Sports Adventure",
+    "city": "Da Nang",
+    "description": "Water Sports Adventure is a must-do experience in Da Nang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Water Sports Adventure in Da Nang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "activity_9_da_nang",
+    "type": "Activity",
+    "name": "Street Food Walking Tour",
+    "city": "Da Nang",
+    "description": "Street Food Walking Tour is a must-do experience in Da Nang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Street Food Walking Tour in Da Nang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "activity_10_da_nang",
+    "type": "Activity",
+    "name": "Day Trip to Hoi An",
+    "city": "Da Nang",
+    "description": "Day Trip to Hoi An is a must-do experience in Da Nang, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Day Trip to Hoi An in Da Nang for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "city_mekong",
+    "type": "City",
+    "name": "Mekong Delta",
+    "region": "Southern Vietnam",
+    "description": "Mekong Delta is located in Southern Vietnam. It’s known for its rural, river, floating_markets experiences, combining local culture, food, and history. Travelers often visit for authentic Vietnamese experiences, from exploring markets and temples to trying street food and scenic excursions.",
+    "best_time_to_visit": "October to April",
+    "tags": [
+      "rural",
+      "river",
+      "floating_markets"
+    ],
+    "semantic_text": "Mekong Delta offers a mix of rural, river, floating_markets attractions and is a must-visit for those seeking immersive travel experiences in Vietnam.",
+    "connections": [
+      {
+        "relation": "Connected_To",
+        "target": "city_ha_long"
+      },
+      {
+        "relation": "Connected_To",
+        "target": "city_da_nang"
+      }
+    ]
+  },
+  {
+    "id": "attraction_1_mekong_delta",
+    "type": "Attraction",
+    "name": "Floating Markets",
+    "city": "Mekong Delta",
+    "description": "Iconic colorful markets on water where boats gather to trade produce, flowers, and goods",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Floating Markets in Mekong Delta: Iconic colorful markets on water where boats gather to trade produce, flowers, and goods...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "attraction_2_mekong_delta",
+    "type": "Attraction",
+    "name": "Can Tho",
+    "city": "Mekong Delta",
+    "description": "Largest city in Mekong Delta featuring riverside charm, bridges, and vibrant local culture",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Can Tho in Mekong Delta: Largest city in Mekong Delta featuring riverside charm, bridges, and vibrant local culture...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "attraction_3_mekong_delta",
+    "type": "Attraction",
+    "name": "Cai Rang Floating Market",
+    "city": "Mekong Delta",
+    "description": "The most famous floating market in Mekong offering authentic boat trading experiences",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Cai Rang Floating Market in Mekong Delta: The most famous floating market in Mekong offering authentic boat trading experiences...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "attraction_4_mekong_delta",
+    "type": "Attraction",
+    "name": "Vinh Long Province",
+    "city": "Mekong Delta",
+    "description": "Rural area showcasing traditional village life with fruit orchards, rice paddies, and local communities",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Vinh Long Province in Mekong Delta: Rural area showcasing traditional village life with fruit orchards, rice paddies, and local communit...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "attraction_5_mekong_delta",
+    "type": "Attraction",
+    "name": "Ben Tre Coconut Village",
+    "city": "Mekong Delta",
+    "description": "Charming village known for coconut production with traditional boat rides through palm groves",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Ben Tre Coconut Village in Mekong Delta: Charming village known for coconut production with traditional boat rides through palm groves...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "attraction_6_mekong_delta",
+    "type": "Attraction",
+    "name": "Tra Su Bird Sanctuary",
+    "city": "Mekong Delta",
+    "description": "Protected wetland area featuring diverse bird species and natural ecosystem",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Tra Su Bird Sanctuary in Mekong Delta: Protected wetland area featuring diverse bird species and natural ecosystem...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "attraction_7_mekong_delta",
+    "type": "Attraction",
+    "name": "My Tho River Cruise",
+    "city": "Mekong Delta",
+    "description": "Scenic river journey through Mekong landscape with visits to islands and local villages",
+    "tags": [
+      "nature",
+      "beach",
+      "scenic"
+    ],
+    "semantic_text": "My Tho River Cruise in Mekong Delta: Scenic river journey through Mekong landscape with visits to islands and local villages...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "attraction_8_mekong_delta",
+    "type": "Attraction",
+    "name": "Mekong River Homestays",
+    "city": "Mekong Delta",
+    "description": "Authentic overnight stays in local family homes offering cultural immersion",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Mekong River Homestays in Mekong Delta: Authentic overnight stays in local family homes offering cultural immersion...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "attraction_9_mekong_delta",
+    "type": "Attraction",
+    "name": "Fruit Orchards",
+    "city": "Mekong Delta",
+    "description": "Working orchards producing tropical fruits with farm tours and fruit tasting experiences",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Fruit Orchards in Mekong Delta: Working orchards producing tropical fruits with farm tours and fruit tasting experiences...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "attraction_10_mekong_delta",
+    "type": "Attraction",
+    "name": "Local Street Food Markets",
+    "city": "Mekong Delta",
+    "description": "Bustling markets offering regional specialties, fresh produce, and traditional Vietnamese cuisine",
+    "tags": [
+      "adventure",
+      "activity",
+      "recreation"
+    ],
+    "semantic_text": "Local Street Food Markets in Mekong Delta: Bustling markets offering regional specialties, fresh produce, and traditional Vietnamese cuisine...",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "hotel_1_mekong_delta",
+    "type": "Hotel",
+    "name": "Mekong Riverside Resort",
+    "city": "Mekong Delta",
+    "description": "Mekong Riverside Resort is a premium accommodation option in Mekong Delta, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Mekong Riverside Resort in Mekong Delta for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "hotel_2_mekong_delta",
+    "type": "Hotel",
+    "name": "Floating Market Hotel",
+    "city": "Mekong Delta",
+    "description": "Floating Market Hotel is a premium accommodation option in Mekong Delta, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Floating Market Hotel in Mekong Delta for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "hotel_3_mekong_delta",
+    "type": "Hotel",
+    "name": "Can Tho Palace Hotel",
+    "city": "Mekong Delta",
+    "description": "Can Tho Palace Hotel is a premium accommodation option in Mekong Delta, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Can Tho Palace Hotel in Mekong Delta for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "hotel_4_mekong_delta",
+    "type": "Hotel",
+    "name": "Rural Homestay Experience",
+    "city": "Mekong Delta",
+    "description": "Rural Homestay Experience is a premium accommodation option in Mekong Delta, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Rural Homestay Experience in Mekong Delta for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "hotel_5_mekong_delta",
+    "type": "Hotel",
+    "name": "Delta Adventure Inn",
+    "city": "Mekong Delta",
+    "description": "Delta Adventure Inn is a premium accommodation option in Mekong Delta, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Delta Adventure Inn in Mekong Delta for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "hotel_6_mekong_delta",
+    "type": "Hotel",
+    "name": "Coconut Village Resort",
+    "city": "Mekong Delta",
+    "description": "Coconut Village Resort is a premium accommodation option in Mekong Delta, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Coconut Village Resort in Mekong Delta for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "hotel_7_mekong_delta",
+    "type": "Hotel",
+    "name": "Local Culture Hotel",
+    "city": "Mekong Delta",
+    "description": "Local Culture Hotel is a premium accommodation option in Mekong Delta, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Local Culture Hotel in Mekong Delta for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "hotel_8_mekong_delta",
+    "type": "Hotel",
+    "name": "Authentic Mekong Lodge",
+    "city": "Mekong Delta",
+    "description": "Authentic Mekong Lodge is a premium accommodation option in Mekong Delta, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Authentic Mekong Lodge in Mekong Delta for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "hotel_9_mekong_delta",
+    "type": "Hotel",
+    "name": "River Paradise Resort",
+    "city": "Mekong Delta",
+    "description": "River Paradise Resort is a premium accommodation option in Mekong Delta, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at River Paradise Resort in Mekong Delta for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "hotel_10_mekong_delta",
+    "type": "Hotel",
+    "name": "Traditional Village Inn",
+    "city": "Mekong Delta",
+    "description": "Traditional Village Inn is a premium accommodation option in Mekong Delta, offering comfortable stays with modern amenities and strategic location for exploring local attractions.",
+    "tags": [
+      "stay",
+      "accommodation",
+      "heritage"
+    ],
+    "semantic_text": "Stay at Traditional Village Inn in Mekong Delta for a comfortable and convenient base to explore the city's attractions.",
+    "connections": [
+      {
+        "relation": "Located_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "activity_1_mekong_delta",
+    "type": "Activity",
+    "name": "Floating Market Boat Tour",
+    "city": "Mekong Delta",
+    "description": "Floating Market Boat Tour is a must-do experience in Mekong Delta, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Floating Market Boat Tour in Mekong Delta for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "activity_2_mekong_delta",
+    "type": "Activity",
+    "name": "River Cruise Experience",
+    "city": "Mekong Delta",
+    "description": "River Cruise Experience is a must-do experience in Mekong Delta, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience River Cruise Experience in Mekong Delta for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "activity_3_mekong_delta",
+    "type": "Activity",
+    "name": "Coconut Farming Tour",
+    "city": "Mekong Delta",
+    "description": "Coconut Farming Tour is a must-do experience in Mekong Delta, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Coconut Farming Tour in Mekong Delta for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "activity_4_mekong_delta",
+    "type": "Activity",
+    "name": "Fruit Orchard Visit & Tasting",
+    "city": "Mekong Delta",
+    "description": "Fruit Orchard Visit & Tasting is a must-do experience in Mekong Delta, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Fruit Orchard Visit & Tasting in Mekong Delta for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "activity_5_mekong_delta",
+    "type": "Activity",
+    "name": "Local Cooking Class",
+    "city": "Mekong Delta",
+    "description": "Local Cooking Class is a must-do experience in Mekong Delta, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Local Cooking Class in Mekong Delta for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "activity_6_mekong_delta",
+    "type": "Activity",
+    "name": "Traditional Village Cycling",
+    "city": "Mekong Delta",
+    "description": "Traditional Village Cycling is a must-do experience in Mekong Delta, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Traditional Village Cycling in Mekong Delta for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "activity_7_mekong_delta",
+    "type": "Activity",
+    "name": "Bird Watching Adventure",
+    "city": "Mekong Delta",
+    "description": "Bird Watching Adventure is a must-do experience in Mekong Delta, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Bird Watching Adventure in Mekong Delta for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "activity_8_mekong_delta",
+    "type": "Activity",
+    "name": "Homestay Cultural Immersion",
+    "city": "Mekong Delta",
+    "description": "Homestay Cultural Immersion is a must-do experience in Mekong Delta, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Homestay Cultural Immersion in Mekong Delta for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "activity_9_mekong_delta",
+    "type": "Activity",
+    "name": "Fishing with Locals",
+    "city": "Mekong Delta",
+    "description": "Fishing with Locals is a must-do experience in Mekong Delta, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Fishing with Locals in Mekong Delta for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_mekong"
+      }
+    ]
+  },
+  {
+    "id": "activity_10_mekong_delta",
+    "type": "Activity",
+    "name": "Traditional Cake Making Workshop",
+    "city": "Mekong Delta",
+    "description": "Traditional Cake Making Workshop is a must-do experience in Mekong Delta, allowing visitors to immerse themselves in local culture, nature, or adventure.",
+    "tags": [
+      "experience",
+      "culture",
+      "adventure"
+    ],
+    "semantic_text": "Experience Traditional Cake Making Workshop in Mekong Delta for an authentic and memorable travel experience.",
+    "connections": [
+      {
+        "relation": "Available_In",
+        "target": "city_mekong"
+      }
+    ]
+  }
+]
